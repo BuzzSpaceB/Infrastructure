@@ -6,7 +6,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/Email.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/Notification.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/RawFunctions.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/Test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/database/mongoDB.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/database/mongoDB_Comments.txt" afterPath="" />
@@ -14,21 +13,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/Gruntfile.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/addressparser/src/addressparser.js" afterPath="" />
@@ -37,56 +28,35 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libbase64/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libbase64/lib/libbase64.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libbase64/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libqp/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libqp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libqp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libqp/lib/libqp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/node_modules/libqp/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/src/buildmail.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/buildmail/test/libbuildmail-unit.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/example/many_hyperquest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/example/many_request.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/example/req.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/LICENSE.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/float.patch" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/float.patch" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/core-util-is/util.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/inherits.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/inherits/test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/build/build.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/component.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/node_modules/readable-stream/passthrough.js" afterPath="" />
@@ -96,33 +66,23 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/duplexer2/test/tests.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/float.patch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/core-util-is/util.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/inherits.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/inherits/test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/isarray/build/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/isarray/component.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/node_modules/string_decoder/README.md" afterPath="" />
@@ -133,10 +93,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/readable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/transform.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/readable-stream/writable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/LICENCE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/Makefile" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/immutable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/mutable.js" afterPath="" />
@@ -144,40 +102,26 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/node_modules/xtend/test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/node_modules/through2/through2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/readme.markdown" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/auth_encoded.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/auth_opt.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/many.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/opts.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/post.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/post_immediate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/readable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/hyperquest/test/set_header.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/CHANGELOG.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/Changelog.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
@@ -187,25 +131,18 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/lib/streams.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/iconv-lite/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libbase64/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libbase64/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libbase64/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libbase64/lib/libbase64.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libbase64/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libqp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libqp/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libqp/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libqp/lib/libqp.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/node_modules/libqp/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/src/charset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/src/libmime.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/libmime/src/mimetypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/CHANGELOG.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/Gruntfile.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/CHANGELOG.md" afterPath="" />
@@ -213,36 +150,27 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/src/data-stream.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/node_modules/smtp-connection/src/smtp-connection.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/direct-transport.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/src/message-queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/test/direct-transport-test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-direct-transport/test/message-queue-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/services.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/nodemailer-wellknown/test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/.jshintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/Gruntfile.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/src/data-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/node_modules/smtp-connection/src/smtp-connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/node_modules/nodemailer-smtp-transport/src/smtp-transport.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/notifications/node_modules/nodemailer/src/compiler.js" afterPath="" />
@@ -256,7 +184,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSDS.js" afterPath="$PROJECT_DIR$/CSDS.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Infrastructure.iml" afterPath="$PROJECT_DIR$/.idea/Infrastructure.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notifications.js" afterPath="$PROJECT_DIR$/Notifications.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Infrastructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -511,8 +438,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -520,7 +448,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,7 +476,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Got the functional modules as objects in the infrastructure module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the functional modules as objects in the infrastructure module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

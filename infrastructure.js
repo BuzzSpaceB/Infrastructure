@@ -1,9 +1,17 @@
 // Load the http module to create an http server.
 var http = require('http');
-var space = require('./buzzSpace');
+var space = require('./BuzzSpace');
+var notifications = require('./Notifications');
 var authorization = require('./Authorization');
 var csds = require('./CSDS');
+
+
 console.log(space);
+console.log(notifications);
+console.log(authorization);
+console.log(csds);
+
+
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   console.log("Request received");
