@@ -25,17 +25,10 @@ var str = JSON.stringify(options);
 notifications.sendMail(str);
 
 
-
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   console.log("Request received");
     response.writeHead(200, {"Content-Type": "application/json"});
-
-
-
-
-
-
 
   var space = {name: "FUN TIMES"}
   var json = JSON.stringify(space);
