@@ -1,5 +1,6 @@
 // Load the http module to create an http server.
 var http = require('http');
+
 var space = require('./BuzzSpace');
 var notifications = require('./Notifications');
 var authorization = require('./Authorization');
@@ -12,10 +13,30 @@ console.log(authorization);
 console.log(csds);
 
 
+var options = {
+    from: 'DiscussionThree@gmail.com',
+    to : "u13019695@tuks.co.za",
+    subject: "New Notification",
+    plain: "New Buzz Space Notification",
+    html: '<b>Authorization added to User</b>'
+}
+
+var str = JSON.stringify(options);
+notifications.sendMail(str);
+
+
+
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   console.log("Request received");
     response.writeHead(200, {"Content-Type": "application/json"});
+
+
+
+
+
+
+
   var space = {name: "FUN TIMES"}
   var json = JSON.stringify(space);
   response.end(json);

@@ -114,6 +114,10 @@ var BuzzSpace =
         var userRoleValid = true; //authorization.userRoleValid(_userID); // check to return true see if the user is a lecturer else return null
         var spaceExists = false; //csds.spaceExists(_moduleID); //return true if space exists else null
 
+        if(_userID == undefined) _userID = 0;
+        if(_academicYear == undefined) _academicYear = 2015;
+        if(_moduleID == undefined) _moduleID = 0;
+
         if(userValid)
         {
             if(userRoleValid){
@@ -138,7 +142,7 @@ var BuzzSpace =
 
     storeBuzzSpace: function (_moduleID, _isOpen ,_academicYear) {
         //TODO: Supply database to test with
-        var databaseUrl = "db";
+        var databaseUrl = "mongodb://localhost/test";
         var collections = ["BuzzSpaces"];
         var db = require("mongojs").connect(databaseUrl, collections);
 

@@ -5,6 +5,7 @@
  * Created by Armand Pieterse on 21-Mar-15.
  */
 
+    module.exports.addAuthorization = function(){
 //Connecting to the database
 var mongoose = require("mongoose");
 mongoose.connect('mongodb://localhost/test');
@@ -127,6 +128,10 @@ db.once('open', function (callback) {
     function isAuthorized(){return true;}
 
 });
+
+
+    }
+
 
 
 
