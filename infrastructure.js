@@ -12,6 +12,14 @@ console.log(notifications);
 console.log(authorization);
 console.log(csds);
 
+/*dummy function for the moment will fully implement once i have recieved all the resources i need*/
+module.exports.Authlog= function LoginAuthentication(LoginRequest,client,LoginResult) {
+    csds.Login(LoginRequest,client,LoginResult);
+    authorization.addAuthorization();
+
+}
+
+
 
 var options = {
     from: 'DiscussionThree@gmail.com',
