@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
     "CSDS_BB": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
     "Notification": "https://github.com/BuzzSpaceB/Notification/tarball/master",
     "Space": "https://github.com/BuzzSpaceB/Space/tarball/master",
