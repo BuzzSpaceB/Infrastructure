@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/BuzzSpaceB/Authorization/tarball/master',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'https://github.com/BuzzSpaceB/Authorization/tarball/master',
+5 verbose cache add   null ]
+6 verbose cache add name=undefined spec="https://github.com/BuzzSpaceB/Authorization/tarball/master" args=["https://github.com/BuzzSpaceB/Authorization/tarball/master",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/BuzzSpaceB/Authorization/tarball/master',
+7 verbose parsed url   path: '/BuzzSpaceB/Authorization/tarball/master',
+7 verbose parsed url   href: 'https://github.com/BuzzSpaceB/Authorization/tarball/master' }
+8 silly lockFile d0f2619c-ceB-Authorization-tarball-master https://github.com/BuzzSpaceB/Authorization/tarball/master
+9 verbose lock https://github.com/BuzzSpaceB/Authorization/tarball/master /Users/wernermostert/.npm/d0f2619c-ceB-Authorization-tarball-master.lock
+10 verbose addRemoteTarball [ 'https://github.com/BuzzSpaceB/Authorization/tarball/master',
+10 verbose addRemoteTarball   null ]
+11 info retry fetch attempt 1 at 20:41:06
+12 verbose fetch to= /var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master
+13 http GET https://github.com/BuzzSpaceB/Authorization/tarball/master
+14 http 200 https://github.com/BuzzSpaceB/Authorization/tarball/master
+15 verbose tar unpack /var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master
+16 silly lockFile 2856c002-horization-tarball-master-unpack tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack
+17 verbose lock tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack /Users/wernermostert/.npm/2856c002-horization-tarball-master-unpack.lock
+18 silly lockFile 3b29cbd6-ceB-Authorization-tarball-master tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master
+19 verbose lock tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master /Users/wernermostert/.npm/3b29cbd6-ceB-Authorization-tarball-master.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 silly gunzTarPerm extractEntry
+22 silly gunzTarPerm modified mode [ '', 509, 493 ]
+23 silly gunzTarPerm extractEntry .gitattributes
+24 silly gunzTarPerm modified mode [ '.gitattributes', 436, 420 ]
+25 silly gunzTarPerm extractEntry .gitignore
+26 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+27 silly gunzTarPerm extractEntry AddAuthorization.js
+28 silly gunzTarPerm modified mode [ 'AddAuthorization.js', 436, 420 ]
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+31 silly gunzTarPerm extractEntry Readme(for AddAuthorization so far).txt
+32 silly gunzTarPerm modified mode [ 'Readme(for AddAuthorization so far).txt', 436, 420 ]
+33 silly gunzTarPerm extractEntry Tester.js
+34 silly gunzTarPerm modified mode [ 'Tester.js', 436, 420 ]
+35 silly gunzTarPerm extractEntry dbconfig.js
+36 silly gunzTarPerm modified mode [ 'dbconfig.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry getAuthorized.js
+38 silly gunzTarPerm modified mode [ 'getAuthorized.js', 436, 420 ]
+39 silly gunzTarPerm extractEntry isAuthorized.js
+40 silly gunzTarPerm modified mode [ 'isAuthorized.js', 436, 420 ]
+41 silly gunzTarPerm extractEntry isAuthorized_readme.txt
+42 silly gunzTarPerm modified mode [ 'isAuthorized_readme.txt', 436, 420 ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+45 silly gunzTarPerm extractEntry removeAuthorization.js
+46 silly gunzTarPerm modified mode [ 'removeAuthorization.js', 436, 420 ]
+47 silly gunzTarPerm extractEntry removeAuthorization_readme.txt
+48 silly gunzTarPerm modified mode [ 'removeAuthorization_readme.txt', 436, 420 ]
+49 silly gunzTarPerm extractEntry updateAuthorization.js
+50 silly gunzTarPerm modified mode [ 'updateAuthorization.js', 436, 420 ]
+51 silly lockFile 2856c002-horization-tarball-master-unpack tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack
+52 silly lockFile 2856c002-horization-tarball-master-unpack tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack
+53 silly lockFile 3b29cbd6-ceB-Authorization-tarball-master tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master
+54 silly lockFile 3b29cbd6-ceB-Authorization-tarball-master tar:///var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master
+55 silly lockFile d0f2619c-ceB-Authorization-tarball-master https://github.com/BuzzSpaceB/Authorization/tarball/master
+56 silly lockFile d0f2619c-ceB-Authorization-tarball-master https://github.com/BuzzSpaceB/Authorization/tarball/master
+57 error Failed to parse json
+57 error Unexpected token /
+58 error File: /var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack/package.json
+59 error Failed to parse package.json data.
+59 error package.json must be actual JSON, not just JavaScript.
+59 error
+59 error This is not a bug in npm.
+59 error Tell the package author to fix their package.json file. JSON.parse
+60 error System Darwin 13.4.0
+61 error command "node" "/usr/local/bin/npm" "install" "https://github.com/BuzzSpaceB/Authorization/tarball/master" "--save"
+62 error cwd /Users/wernermostert/Documents/Development/Github_Repositories/BuzzSpaceB/Infrastructure/V1.1/InfrastructureExpress
+63 error node -v v0.10.35
+64 error npm -v 1.4.28
+65 error file /var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-9806-OV0kptsj/github.com/BuzzSpaceB/Authorization/tarball/master-unpack/package.json
+66 error code EJSONPARSE
+67 verbose exit [ 1, true ]

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!-- Simple webpage used for testing buzzspace functions -->
+<html>
+    <head>
+        <title>BuzzSpace Tests</title>
+        <meta charset='UTF-8'>
+
+    </head>
+    <body>
+        <form method='post' name='form'>
+            <div id='login_div'>
+                <label> User ID: </label><input type='text' id='username' name='username' placeholder='uXXXXXXXX'/>
+                <br />
+                <label> Password: </label><input type='text' id='username' name='username' placeholder='********'/>
+                <br />
+                <input type='submit' id='login' name='Method' value='Login' />
+            </div>
+            <div id='register_div'>
+                <label> User ID: </label><input type='text' id='username' name='username' placeholder='uXXXXXXXX'/>
+                <br />
+                <label> Module ID: </label><input type='text' id='username' name='username' placeholder='COSXXX'/>
+                <br />
+                <input type='submit' id='register' name='Method' value='Register' />
+            </div>
+            <div id='createbuzzspace_div'>
+                <label> User ID: </label><input type='text' id='username' name='username' placeholder='uXXXXXXXX'/>
+                <br />
+                <label> Academic Year: </label><input type='text' id='accyear' name='username' placeholder='2XXX'/>
+                <br />
+                <label> Module ID: </label><input type='text' id='module' name='username' placeholder='COSXXX'/>
+                <br />
+                <input type='submit' id='createbuzzspace' name='Method' value='Create' />
+            </div>
+            <div id='closebuzzspace_div'>
+                <label> User ID: </label><input type='text' id='username' name='username' placeholder='COSXXX'/>
+                <br />
+                <label> Module ID: </label><input type='text' id='module' name='username' placeholder='COSXXX'/>
+                <br />
+                <input type='submit' id='closebuzzspace' name='Method' value='Close' />
+            </div>
+        </form>
+    </body>
+</html>
