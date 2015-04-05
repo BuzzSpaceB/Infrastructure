@@ -7,14 +7,23 @@ var client=ldap.createClient({
     url: "ldap://reaper.up.ac.za"
 });
 
+var Credentials = {
+    password : "1234#",
+    username : "u13019695"
+}
+
+
 module.exports.Login= function Login(LoginRequest)
 {
-    var connection = CheckConnection();
-    if(connections == true) {
-        if (LoginRequest.username() == Credentials.username) {
-            if (LoginRequest.password() == Credentials.password) {
-                return LoginResult("Logged in",Credentials);
-            }
+    console.log("CSDS logining in...");
+    var connection = this.CheckConnection();
+
+    if(connection == true) {
+
+        if (LoginRequest.username == Credentials.username && LoginRequest.password == Credentials.password) {
+
+                return Credentials.username;
+
         }
         else
         {
@@ -45,23 +54,22 @@ module.exports.LoginResult= function LoginResult(msg,obj)
 module.exports.CheckConnection = function CheckConnection()
 {
 
-    if("ldap://reaper.up.ac.za" == this.client.url)
+
+
+    if("ldap://reaper.up.ac.za" == client.url.href)
     {
       return true;
     }
     else
     {
-        throw "ErrorinConnection";
+        return false;
     }
 }
 
-module.exports.Credentials = function UsernamePasswordCredentials() {
-    this.username = u12345678;
-    this.password = Randoms;
-}
+module.exports.Credentials = Credentials;
 
 
-module.exports.LoginRquest = function LoginRequest(usernamePasswordCredentials) {
+module.exports.LoginRequest = function LoginRequest(usernamePasswordCredentials) {
     var pass = usernamePasswordCredentials;
 
     this.username = function() {

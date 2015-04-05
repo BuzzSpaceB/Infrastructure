@@ -4,7 +4,7 @@
     <list default="true" id="431f4352-777a-43c2-8ca7-ea4543404fb3" name="Default" comment="Got the functional modules as objects in the infrastructure module">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
     </list>
     <ignored path="Infrastructure.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="Mock_CSDS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2655">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -48,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mock_Space.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mock_Space.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Space.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1635">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.31914893" vertical-offset="315" max-vertical-offset="1650">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Infrastructure.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Infrastructure.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2393617" vertical-offset="0" max-vertical-offset="376">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -86,11 +86,11 @@
         <option value="$PROJECT_DIR$/BuzzSpace.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Infrastructure.js" />
-        <option value="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/Infrastrucure.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/app.js" />
-        <option value="$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" />
+        <option value="$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js" />
+        <option value="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
       </list>
     </option>
   </component>
@@ -267,7 +267,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2690549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42120343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42120343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -384,18 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Space.js">
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1635">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -408,10 +400,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js">
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2393617" vertical-offset="0" max-vertical-offset="376">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2655">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Space.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31914893" vertical-offset="315" max-vertical-offset="1650">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>
