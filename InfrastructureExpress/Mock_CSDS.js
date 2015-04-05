@@ -1,6 +1,8 @@
 /**
  * Created by Michael Nunes on 05/04/2015.
  */
+var ldap = require("ldapjs");
+
 var client=ldap.createClient({
     url: "ldap://reaper.up.ac.za"
 });
