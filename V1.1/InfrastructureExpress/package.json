@@ -20,7 +20,6 @@
     "express": "~4.12.2",
     "handlebars": "^3.0.0",
     "hjs": "~0.0.6",
-    "jsreport": "^0.2.10",
     "ldapjs": "^0.7.1",
     "mongoose": "^4.0.0",
     "morgan": "~1.5.1",
