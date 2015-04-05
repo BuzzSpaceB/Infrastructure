@@ -1,247 +1,84 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'node-gyp' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'nodeunit--save' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.35
-4 verbose cache add [ 'node-gyp', null ]
-5 verbose cache add name=undefined spec="node-gyp" args=["node-gyp",null]
-6 verbose parsed url { protocol: null,
-6 verbose parsed url   slashes: null,
-6 verbose parsed url   auth: null,
-6 verbose parsed url   host: null,
-6 verbose parsed url   port: null,
-6 verbose parsed url   hostname: null,
-6 verbose parsed url   hash: null,
-6 verbose parsed url   search: null,
-6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'node-gyp',
-6 verbose parsed url   path: 'node-gyp',
-6 verbose parsed url   href: 'node-gyp' }
-7 silly lockFile 54062583-node-gyp node-gyp
-8 verbose lock node-gyp /Users/wernermostert/.npm/54062583-node-gyp.lock
-9 silly lockFile 54062583-node-gyp node-gyp
-10 silly lockFile 54062583-node-gyp node-gyp
-11 verbose addNamed [ 'node-gyp', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile c0cd6589-node-gyp node-gyp@
-14 verbose lock node-gyp@ /Users/wernermostert/.npm/c0cd6589-node-gyp.lock
-15 silly addNameRange { name: 'node-gyp', range: '*', hasData: false }
-16 verbose request where is /node-gyp
-17 verbose request registry https://registry.npmjs.org/
-18 verbose request id c981f5b47ecdd7c7
-19 verbose url raw /node-gyp
-20 verbose url resolving [ 'https://registry.npmjs.org/', './node-gyp' ]
-21 verbose url resolved https://registry.npmjs.org/node-gyp
-22 verbose request where is https://registry.npmjs.org/node-gyp
-23 info trying registry request attempt 1 at 21:28:40
-24 http GET https://registry.npmjs.org/node-gyp
-25 http 200 https://registry.npmjs.org/node-gyp
-26 silly registry.get cb [ 200,
-26 silly registry.get   { date: 'Sat, 04 Apr 2015 19:28:42 GMT',
-26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-26 silly registry.get     etag: '"5NQVOGPSAZYYNEQZO75U3CYQV"',
-26 silly registry.get     'content-type': 'application/json',
-26 silly registry.get     'cache-control': 'max-age=60',
-26 silly registry.get     'content-length': '110980',
-26 silly registry.get     'accept-ranges': 'bytes',
-26 silly registry.get     via: '1.1 varnish',
-26 silly registry.get     age: '0',
-26 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
-26 silly registry.get     'x-cache': 'MISS',
-26 silly registry.get     'x-cache-hits': '0',
-26 silly registry.get     'x-timer': 'S1428175722.478098,VS0,VE154',
-26 silly registry.get     vary: 'Accept',
-26 silly registry.get     'keep-alive': 'timeout=10, max=50',
-26 silly registry.get     connection: 'Keep-Alive' } ]
-27 silly addNameRange number 2 { name: 'node-gyp', range: '*', hasData: true }
-28 silly addNameRange versions [ 'node-gyp',
-28 silly addNameRange   [ '0.0.1',
-28 silly addNameRange     '0.0.2',
-28 silly addNameRange     '0.0.3',
-28 silly addNameRange     '0.0.4',
-28 silly addNameRange     '0.0.5',
-28 silly addNameRange     '0.0.6',
-28 silly addNameRange     '0.1.0',
-28 silly addNameRange     '0.1.1',
-28 silly addNameRange     '0.1.2',
-28 silly addNameRange     '0.1.3',
-28 silly addNameRange     '0.1.4',
-28 silly addNameRange     '0.2.0',
-28 silly addNameRange     '0.2.1',
-28 silly addNameRange     '0.2.2',
-28 silly addNameRange     '0.3.0',
-28 silly addNameRange     '0.3.1',
-28 silly addNameRange     '0.3.2',
-28 silly addNameRange     '0.3.4',
-28 silly addNameRange     '0.3.5',
-28 silly addNameRange     '0.3.6',
-28 silly addNameRange     '0.3.7',
-28 silly addNameRange     '0.3.8',
-28 silly addNameRange     '0.3.9',
-28 silly addNameRange     '0.3.10',
-28 silly addNameRange     '0.3.11',
-28 silly addNameRange     '0.4.0',
-28 silly addNameRange     '0.4.1',
-28 silly addNameRange     '0.4.2',
-28 silly addNameRange     '0.4.3',
-28 silly addNameRange     '0.4.4',
-28 silly addNameRange     '0.4.5',
-28 silly addNameRange     '0.5.0',
-28 silly addNameRange     '0.5.1',
-28 silly addNameRange     '0.5.2',
-28 silly addNameRange     '0.5.3',
-28 silly addNameRange     '0.5.4',
-28 silly addNameRange     '0.5.5',
-28 silly addNameRange     '0.5.6',
-28 silly addNameRange     '0.5.7',
-28 silly addNameRange     '0.5.8',
-28 silly addNameRange     '0.6.0',
-28 silly addNameRange     '0.6.1',
-28 silly addNameRange     '0.6.2',
-28 silly addNameRange     '0.6.3',
-28 silly addNameRange     '0.6.4',
-28 silly addNameRange     '0.6.5',
-28 silly addNameRange     '0.6.6',
-28 silly addNameRange     '0.6.7',
-28 silly addNameRange     '0.6.8',
-28 silly addNameRange     '0.6.9',
-28 silly addNameRange     '0.6.10',
-28 silly addNameRange     '0.6.11',
-28 silly addNameRange     '0.7.0',
-28 silly addNameRange     '0.7.1',
-28 silly addNameRange     '0.7.2',
-28 silly addNameRange     '0.7.3',
-28 silly addNameRange     '0.8.0',
-28 silly addNameRange     '0.8.1',
-28 silly addNameRange     '0.8.2',
-28 silly addNameRange     '0.8.3',
-28 silly addNameRange     '0.8.4',
-28 silly addNameRange     '0.8.5',
-28 silly addNameRange     '0.9.0',
-28 silly addNameRange     '0.9.1',
-28 silly addNameRange     '0.9.2',
-28 silly addNameRange     '0.9.3',
-28 silly addNameRange     '0.9.4',
-28 silly addNameRange     '0.9.5',
-28 silly addNameRange     '0.9.6',
-28 silly addNameRange     '0.10.0',
-28 silly addNameRange     '0.10.1',
-28 silly addNameRange     '0.10.2',
-28 silly addNameRange     '0.10.3',
-28 silly addNameRange     '0.10.4',
-28 silly addNameRange     '0.10.5',
-28 silly addNameRange     '0.10.6',
-28 silly addNameRange     '0.10.7',
-28 silly addNameRange     '0.10.8',
-28 silly addNameRange     '0.10.9',
-28 silly addNameRange     '0.10.10',
-28 silly addNameRange     '0.11.0',
-28 silly addNameRange     '0.12.0',
-28 silly addNameRange     '0.12.1',
-28 silly addNameRange     '0.12.2',
-28 silly addNameRange     '0.13.0',
-28 silly addNameRange     '0.13.1',
-28 silly addNameRange     '1.0.0',
-28 silly addNameRange     '1.0.1',
-28 silly addNameRange     '1.0.2',
-28 silly addNameRange     '1.0.3' ] ]
-29 verbose addNamed [ 'node-gyp', '1.0.3' ]
-30 verbose addNamed [ '1.0.3', '1.0.3' ]
-31 silly lockFile f83e1402-node-gyp-1-0-3 node-gyp@1.0.3
-32 verbose lock node-gyp@1.0.3 /Users/wernermostert/.npm/f83e1402-node-gyp-1-0-3.lock
-33 silly lockFile f138f230--org-node-gyp-node-gyp-1-0-3-tgz https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-34 verbose lock https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz /Users/wernermostert/.npm/f138f230--org-node-gyp-node-gyp-1-0-3-tgz.lock
-35 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz',
-35 verbose addRemoteTarball   'a2f63f2df0b1f6cc69fa54bce3cc298aa769cbd8' ]
-36 info retry fetch attempt 1 at 21:28:43
-37 verbose fetch to= /var/folders/hm/418bwn5x37g8r1vx92233cd00000gn/T/npm-983-teGyS48_/registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-38 http GET https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-39 http 200 https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-40 silly lockFile f138f230--org-node-gyp-node-gyp-1-0-3-tgz https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-41 silly lockFile f138f230--org-node-gyp-node-gyp-1-0-3-tgz https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz
-42 silly lockFile f83e1402-node-gyp-1-0-3 node-gyp@1.0.3
-43 silly lockFile f83e1402-node-gyp-1-0-3 node-gyp@1.0.3
-44 silly lockFile c0cd6589-node-gyp node-gyp@
-45 silly lockFile c0cd6589-node-gyp node-gyp@
-46 silly resolved [ { name: 'node-gyp',
-46 silly resolved     description: 'Node.js native addon build tool',
-46 silly resolved     keywords: [ 'native', 'addon', 'module', 'c', 'c++', 'bindings', 'gyp' ],
-46 silly resolved     version: '1.0.3',
-46 silly resolved     installVersion: 9,
-46 silly resolved     author:
-46 silly resolved      { name: 'Nathan Rajlich',
-46 silly resolved        email: 'nathan@tootallnate.net',
-46 silly resolved        url: 'http://tootallnate.net' },
-46 silly resolved     repository:
-46 silly resolved      { type: 'git',
-46 silly resolved        url: 'git://github.com/TooTallNate/node-gyp.git' },
-46 silly resolved     preferGlobal: true,
-46 silly resolved     bin: { 'node-gyp': './bin/node-gyp.js' },
-46 silly resolved     main: './lib/node-gyp.js',
-46 silly resolved     dependencies:
-46 silly resolved      { fstream: '^1.0.0',
-46 silly resolved        glob: '3 || 4',
-46 silly resolved        'graceful-fs': '3',
-46 silly resolved        minimatch: '1',
-46 silly resolved        mkdirp: '^0.5.0',
-46 silly resolved        nopt: '2 || 3',
-46 silly resolved        npmlog: '0 || 1',
-46 silly resolved        osenv: '0',
-46 silly resolved        request: '2',
-46 silly resolved        rimraf: '2',
-46 silly resolved        semver: '2.x || 3.x || 4',
-46 silly resolved        tar: '^1.0.0',
-46 silly resolved        which: '1' },
-46 silly resolved     engines: { node: '>= 0.8.0' },
-46 silly resolved     gitHead: 'abad2b58c03de713eb1805f7a681b1084c08b316',
-46 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-gyp/issues' },
-46 silly resolved     homepage: 'https://github.com/TooTallNate/node-gyp',
-46 silly resolved     _id: 'node-gyp@1.0.3',
-46 silly resolved     scripts: {},
-46 silly resolved     _shasum: 'a2f63f2df0b1f6cc69fa54bce3cc298aa769cbd8',
-46 silly resolved     _from: 'node-gyp@',
-46 silly resolved     _npmVersion: '1.4.28',
-46 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
-46 silly resolved     maintainers: [ [Object], [Object], [Object] ],
-46 silly resolved     dist:
-46 silly resolved      { shasum: 'a2f63f2df0b1f6cc69fa54bce3cc298aa769cbd8',
-46 silly resolved        tarball: 'http://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz' },
-46 silly resolved     directories: {},
-46 silly resolved     _resolved: 'https://registry.npmjs.org/node-gyp/-/node-gyp-1.0.3.tgz' } ]
-47 info install node-gyp@1.0.3 into /usr/local/lib
-48 info installOne node-gyp@1.0.3
-49 verbose lib/node_modules/node-gyp unbuild
-50 verbose tar unpack /Users/wernermostert/.npm/node-gyp/1.0.3/package.tgz
-51 silly lockFile fb1382c1--local-lib-node-modules-node-gyp tar:///usr/local/lib/node_modules/node-gyp
-52 verbose lock tar:///usr/local/lib/node_modules/node-gyp /Users/wernermostert/.npm/fb1382c1--local-lib-node-modules-node-gyp.lock
-53 silly lockFile 043b4a7a-t-npm-node-gyp-1-0-3-package-tgz tar:///Users/wernermostert/.npm/node-gyp/1.0.3/package.tgz
-54 verbose lock tar:///Users/wernermostert/.npm/node-gyp/1.0.3/package.tgz /Users/wernermostert/.npm/043b4a7a-t-npm-node-gyp-1-0-3-package-tgz.lock
-55 silly gunzTarPerm modes [ '755', '644' ]
-56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/node-gyp'
-56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/node-gyp']
-56 error   errno: 3,
-56 error   code: 'EACCES',
-56 error   path: '/usr/local/lib/node_modules/node-gyp',
-56 error   fstream_type: 'Directory',
-56 error   fstream_path: '/usr/local/lib/node_modules/node-gyp',
-56 error   fstream_class: 'DirWriter',
-56 error   fstream_stack:
-56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
-56 error      'Object.oncomplete (fs.js:108:15)' ] }
-57 error Please try running this command again as root/Administrator.
-58 error System Darwin 13.4.0
-59 error command "node" "/usr/local/bin/npm" "install" "-g" "node-gyp"
-60 error cwd /Users/wernermostert/Documents/Development/Github_Repositories/BuzzSpaceB/Infrastructure/V1.1/InfrastructureExpress
-61 error node -v v0.10.35
-62 error npm -v 1.4.28
-63 error path /usr/local/lib/node_modules/node-gyp
-64 error fstream_path /usr/local/lib/node_modules/node-gyp
-65 error fstream_type Directory
-66 error fstream_class DirWriter
-67 error code EACCES
-68 error errno 3
-69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/node-gyp'
-70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
-70 error fstream_stack Object.oncomplete (fs.js:108:15)
-71 verbose exit [ 3, true ]
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'nodeunit--save', null ]
+6 verbose cache add name=undefined spec="nodeunit--save" args=["nodeunit--save",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nodeunit--save',
+7 verbose parsed url   path: 'nodeunit--save',
+7 verbose parsed url   href: 'nodeunit--save' }
+8 silly lockFile 0fefcaf2-nodeunit-save nodeunit--save
+9 verbose lock nodeunit--save /Users/wernermostert/.npm/0fefcaf2-nodeunit-save.lock
+10 silly lockFile 0fefcaf2-nodeunit-save nodeunit--save
+11 silly lockFile 0fefcaf2-nodeunit-save nodeunit--save
+12 verbose addNamed [ 'nodeunit--save', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c6f1472d-nodeunit-save nodeunit--save@
+15 verbose lock nodeunit--save@ /Users/wernermostert/.npm/c6f1472d-nodeunit-save.lock
+16 silly addNameRange { name: 'nodeunit--save', range: '*', hasData: false }
+17 verbose request where is /nodeunit--save
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 647bdd53c009d678
+20 verbose url raw /nodeunit--save
+21 verbose url resolving [ 'https://registry.npmjs.org/', './nodeunit--save' ]
+22 verbose url resolved https://registry.npmjs.org/nodeunit--save
+23 verbose request where is https://registry.npmjs.org/nodeunit--save
+24 info trying registry request attempt 1 at 10:00:12
+25 http GET https://registry.npmjs.org/nodeunit--save
+26 http 404 https://registry.npmjs.org/nodeunit--save
+27 verbose headers { date: 'Sun, 05 Apr 2015 08:00:15 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1428220815.593129,VS0,VE89',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Sun, 05 Apr 2015 08:00:15 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lhr6332-LHR',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1428220815.593129,VS0,VE89',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile c6f1472d-nodeunit-save nodeunit--save@
+30 silly lockFile c6f1472d-nodeunit-save nodeunit--save@
+31 error 404 404 Not Found: nodeunit--save
+31 error 404
+31 error 404 'nodeunit--save' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'InfrastructureExpress'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 13.4.0
+33 error command "node" "/usr/local/bin/npm" "install" "nodeunit--save"
+34 error cwd /Users/wernermostert/Documents/Development/Github_Repositories/BuzzSpaceB/Infrastructure/V1.1/InfrastructureExpress
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

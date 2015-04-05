@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
-    "CSDS_BB": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
+    "CSDS": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
     "Notification": "https://github.com/BuzzSpaceB/Notification/tarball/master",
     "Space": "https://github.com/BuzzSpaceB/Space/tarball/master",
     "application-name": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
@@ -27,6 +27,7 @@
     "node-aop": "^0.1.0",
     "node-cache": "^1.1.0",
     "nodemailer": "^1.3.2",
+    "nodeunit": "^0.9.1",
     "react": "^0.13.1",
     "react-bootstrap": "^0.17.0",
     "scribe-js": "^2.0.4",
