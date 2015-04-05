@@ -1,1 +1,5 @@
-// The node module for infrastructure integration
+var authorization = require(mock_Authorization);
+var space = require(mock_Space);
+var CSDS = require(mock_CSDS);
+var notification = require(mock_Notification);
+
