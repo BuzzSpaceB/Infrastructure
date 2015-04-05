@@ -5,12 +5,12 @@ var client=ldap.createClient({
     url: "ldap://reaper.up.ac.za"
 });
 
-module.exports.Login= function Login(Client,uname,password)
+module.exports.Login= function Login(LoginRequest)
 {
-    var connection = CheckConnection(Client);
+    var connection = CheckConnection();
     if(connections == true) {
-        if (uname == Credentials.username) {
-            if (password == Credentials.password) {
+        if (LoginRequest.username() == Credentials.username) {
+            if (LoginRequest.password() == Credentials.password) {
                 return true;
             }
         }
@@ -37,10 +37,10 @@ module.exports.LoginResult= function LoginResult(msg,obj)
     }
 }
 
-module.exports.CheckConnection = function CheckConnection(clientel)
+module.exports.CheckConnection = function CheckConnection()
 {
 
-    if(clientel == this.client)
+    if("ldap://reaper.up.ac.za" == this.client.url)
     {
       return true;
     }
