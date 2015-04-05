@@ -25,7 +25,7 @@ var BuzzSpace =
         try
         {
             var loginRequest = { user_id: _username, password: _password };
-            csds.login(loginRequest);
+            return csds.login(loginRequest);
             console.log( "Login Succesful" );
         }
         catch( e )
