@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f88400-527f-4ecc-ab8f-4a642177e746" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/envVariables.js" afterPath="$PROJECT_DIR$/envVariables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testSpace.js" afterPath="$PROJECT_DIR$/tests/testSpace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/envVariables.js" afterPath="$PROJECT_DIR$/node_modules/envVariables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/Space/buzzSpace.js" afterPath="$PROJECT_DIR$/node_modules/Space/buzzSpace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="InfrastructureExpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="envVariables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/envVariables.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/envVariables.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -75,10 +75,11 @@
       <file leaf-file-name="buzzSpace.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_modules/Space/buzzSpace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4864864" vertical-offset="4185" max-vertical-offset="4935">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.67424244" vertical-offset="4204" max-vertical-offset="4860">
+              <caret line="315" column="29" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#818#1091#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -127,6 +128,7 @@
         <option value="$PROJECT_DIR$/envVariables.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/tests/testSpace.js" />
+        <option value="$PROJECT_DIR$/node_modules/Space/buzzSpace.js" />
       </list>
     </option>
   </component>
@@ -252,6 +254,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Space" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.bin/www">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
@@ -304,10 +311,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="85" width="1670" height="911" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28989038" sideWeight="0.4996968" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28989038" sideWeight="0.4996968" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -541,7 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/envVariables.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/envVariables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -587,10 +594,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/Space/buzzSpace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4864864" vertical-offset="4185" max-vertical-offset="4935">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.67424244" vertical-offset="4204" max-vertical-offset="4860">
+          <caret line="315" column="29" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#818#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
