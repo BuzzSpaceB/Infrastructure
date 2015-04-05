@@ -5,14 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-console.log("Space :")
-var space = require('Space');
-console.log(space);
-
-console.log("CSDS :")
-var space = require('CSDS');
-console.log(space);
-
 
 var routes = require('./routes/index');
 var users = require('./routes/users');

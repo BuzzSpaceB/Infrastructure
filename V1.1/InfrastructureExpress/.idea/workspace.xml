@@ -2,784 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f88400-527f-4ecc-ab8f-4a642177e746" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/envVariables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/testSpace.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/Space/infrastructure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/.npmrc.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/certificates/jsreport.net.cert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/certificates/jsreport.net.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/config.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/example.config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/lib/authentication.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/lib/usersRepository.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.changePassword.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.create.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.detail.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/js/user.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-changePassword-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-create-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-detail-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/templates/user-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/public/views/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authentication/test/authenticationTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/lib/authorization.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/js/permissions.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/js/permissions.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/js/permissions.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/templates/template-permissions-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/public/templates/template-permissions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/authorization/test/authorizationTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/childTemplates/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/childTemplates/lib/childTemplates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/childTemplates/test/childTemplatesTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/lib/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/lib/wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/client-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/client.render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/jsrender.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/client-html/public/js/main_embed_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/lib/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.entityRegistration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.template.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.template.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/data.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/js/main_embed_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-template-extension-standard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/data-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/public/templates/embed-data-template-extension.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/test/dataTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/data/test/ui/dataTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/lib/embedding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/lib/wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/public/js/embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/embedding/test/embeddingTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/excel-parser/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/excel-parser/lib/excelParser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/excel-parser/test/excelParserTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/excel-parser/test/test-data.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/lib/clusterDomainMiddleware.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/lib/reporter.express.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/lib/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/bootstrap-multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/bootstrap-nonresponsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/built.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/built_embed.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/embed.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/introjs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/split-pane.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/css/toastr.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/discuss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/js-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/jsreport-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/spinner-green2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/img/wine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/app_built.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/app_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/aceBinder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/backbone.sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/basicModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/dataContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/dataGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/errorAlert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/extensions/extension.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/extensions/extension.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/extensions/extension.manager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/extensions/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/introduction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/jaydataModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/jquery.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/jsrender.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/listenerCollection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/marionette.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/menu.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/settingsCollection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/core/view.base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/dashboard/dashboard.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/dashboard/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/js/require_main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-beautify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-chromevox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-elastic_tabstops_lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-emmet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-error_marker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-keybinding_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-language_tools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-linking.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-modelist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-old_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-searchbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-settings_menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-spellcheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-split.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-static_highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-statusbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-themelist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/ext-whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/keybinding-emacs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/keybinding-vim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-abap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-actionscript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ada.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-apache_conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-applescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-asciidoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-assembly_x86.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-autohotkey.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-batchfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-c9search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-c_cpp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-cirru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-clojure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-cobol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-coldfusion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-csharp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-curly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-dart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-diff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-django.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-dockerfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-dot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-eiffel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ejs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-erlang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-forth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ftl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-gcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-gherkin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-gitignore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-glsl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-golang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-groovy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-haml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-haskell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-haxe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-html_ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ini.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-io.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-jack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-jade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-java.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-jsoniq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-jsp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-jsx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-julia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-latex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-liquid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-lisp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-livescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-logiql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-lsl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-lua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-luapage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-lucene.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-makefile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-matlab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-mel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-mushcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-nix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-objectivec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ocaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-pascal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-perl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-pgsql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-plain_text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-powershell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-praat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-prolog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-protobuf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-python.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-r.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-rdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-rhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-rust.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-sass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-scad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-scala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-scheme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-scss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-sh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-sjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-smarty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-snippets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-soy_template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-space.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-sql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-stylus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-svg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-tcl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-tex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-textile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-toml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-twig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-typescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-vala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-vbscript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-velocity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-verilog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-vhdl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-xquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/mode-yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/abap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/actionscript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ada.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/apache_conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/applescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/asciidoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/assembly_x86.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/autohotkey.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/batchfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/c9search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/c_cpp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/cirru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/clojure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/cobol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/coldfusion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/csharp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/curly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/dart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/diff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/django.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/dockerfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/dot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/eiffel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ejs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/erlang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/forth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ftl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/gcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/gherkin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/gitignore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/glsl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/golang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/groovy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/haml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/handlebars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/haskell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/haxe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/html_ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ini.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/io.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/jack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/jade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/java.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/jsoniq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/jsp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/jsx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/julia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/latex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/liquid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/lisp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/livescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/logiql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/lsl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/lua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/luapage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/lucene.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/makefile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/matlab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/mel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/mushcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/nix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/objectivec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ocaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/pascal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/perl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/pgsql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/plain_text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/powershell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/praat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/prolog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/protobuf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/python.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/r.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/rdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/rhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/rust.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/sass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/scad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/scala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/scheme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/scss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/sh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/sjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/smarty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/snippets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/soy_template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/space.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/sql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/stylus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/svg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/tcl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/tex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/textile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/toml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/twig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/typescript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/vala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/vbscript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/velocity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/verilog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/vhdl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/xquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/snippets/yaml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-ambiance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-chaos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-chrome.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-clouds.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-clouds_midnight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-cobalt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-crimson_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-dawn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-dreamweaver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-eclipse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-github.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-idle_fingers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-katzenmilch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-kr_theme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-kuroir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-merbivore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-merbivore_soft.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-mono_industrial.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-monokai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-pastel_on_dark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-solarized_dark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-solarized_light.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-terminal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-textmate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-tomorrow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-tomorrow_night.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-tomorrow_night_blue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-tomorrow_night_bright.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-tomorrow_night_eighties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-twilight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-vibrant_ink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/theme-xcode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-lua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/ace/worker-xquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.augment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.babysitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.marionette.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.modelBinder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/backbone.wreqr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/bootstrap-multiselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/datajs-1.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/datajs-1.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jaydata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jaydata.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.fineuploader-3.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.flot.axislabels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.flot.canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.ui.core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.ui.mouse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.ui.selectable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jquery.ui.widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/jsrender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/oDataProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/require.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/split-pane.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/toastr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/lib/underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/dataGrid-pager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/dataGrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/embed-layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/error-alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/extension-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/templates/title-edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/views/root.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/views/root_built.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/public/views/root_dev.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/express/test/expressTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/fop-pdf/integrationTest/fopTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/fop-pdf/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/fop-pdf/lib/fop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html-to-xlsx/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html-to-xlsx/lib/extractExcel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html-to-xlsx/lib/htmlToXlsx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html/lib/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/html/test/htmlTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/lib/images.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.ref.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/images.uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-embed-info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/public/templates/images-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/test/imagesTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/images/test/testImg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/integrationTest/phantomTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/lib/bridge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/lib/phantom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/lib/phantomManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/main_embed_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/phantom.template.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/js/phantom.template.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/templates/embed-phantom-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/phantom-pdf/public/templates/phantom-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/lib/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/public/templates/template-share-dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/public-templates/public/templates/template-share.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/lib/reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/dashboard.reports.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/dashboard.reports.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.templateToolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/js/report.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/dashboard-reports.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-template-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/public/templates/report-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/reports/test/reportsTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/sample-template/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/sample-template/lib/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/sample-template/lib/sample/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/sample-template/lib/sample/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/sample-template/lib/sample/sample.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/lib/jobProcessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/lib/scheduling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.entityRegistration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.tasks.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/js/scheduling.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-tasks-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-tasks-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/public/templates/scheduling-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/test/jobProcessorTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scheduling/test/schedulingTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/lib/scriptEvalChild.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/lib/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/main_embed_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.entityRegistration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.template.standard.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.template.standard.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/js/scripts.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/embed-scripts-template-extension.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-template-standard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/public/templates/scripts-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/scripts/test/scriptsTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/lib/statistics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/public/js/dashboard.statistics.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/public/js/dashboard.statistics.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/public/templates/dashboard-statistics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/statistics/test/statisticsTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/lib/templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/dashboard.templates.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/dashboard.templates.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/main_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/main_embed_dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.detail.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.detail.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.entityRegistration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.list.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.list.toolbar.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.list.view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/js/template.preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/dashboard-templates.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/embed-template-basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/embed-template-intro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/embed-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-detail-api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-detail-intro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-detail-link.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-detail-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-list-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-list-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-list-toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/public/templates/template-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/test/templatesTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/templates/test/ui/templatesTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/lib/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/public/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/public/js/main_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/public/templates/embed-text-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/text/public/templates/text-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/xlsx/jsreport.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/extension/xlsx/lib/xlsx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/blobStorage/blobStorageFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/blobStorage/fileSystemBlobStorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/blobStorage/gridFSBlobStorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/blobStorage/inMemoryBlobStorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/bootstrapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/configuration/validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/dataProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/extensionsManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/ModelBinder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/customErrorHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/mongoConnectionProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/mongoDBStorageProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/nedbStorageProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/jaydata/persistence.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/render/handlebarsEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/render/jsrenderEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/render/noneEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/render/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/render/renderExecution.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/reporter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/reportingCommander.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/tasks/taskManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/tasks/workersCluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/util/consoleLogger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/util/dummyLogger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/util/listenerCollection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/util/settings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/lib/util/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ListenerCollectionTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/bootstrapTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/extensionsManagerTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/fileSystemBlobStorageTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/gridFSBlobStorageTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/handlebarsTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/inMemoryBlobStorageTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/indexTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/jsrenderTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/renderTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/reporterTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/settingsTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/taskManagerTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/testingScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/expect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/mocha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/requests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/sinon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/squire.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/starter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/ui/tests.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jsreport/test/validateConfigurationTest.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/envVariables.js" afterPath="$PROJECT_DIR$/envVariables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testSpace.js" afterPath="$PROJECT_DIR$/tests/testSpace.js" />
     </list>
     <ignored path="InfrastructureExpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -806,8 +31,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1125">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -816,18 +41,8 @@
       <file leaf-file-name="testSpace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/testSpace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="envVariables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/envVariables.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -835,14 +50,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buzzSpace.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="envVariables.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/envVariables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buzzSpace.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_modules/Space/buzzSpace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4935">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state vertical-scroll-proportion="-5.4864864" vertical-offset="4185" max-vertical-offset="4935">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -857,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.478" vertical-offset="91" max-vertical-offset="615">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state vertical-scroll-proportion="-18.75" vertical-offset="30" max-vertical-offset="630">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -876,10 +123,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/tests/testSpace.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/envVariables.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tests/testSpace.js" />
       </list>
     </option>
   </component>
@@ -1057,16 +304,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="85" width="1670" height="911" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28989038" sideWeight="0.4996968" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28989038" sideWeight="0.4996968" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21467556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276492" sideWeight="0.49964765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276492" sideWeight="0.49964765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2905983" sideWeight="0.5003032" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1196,14 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.hjs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
@@ -1217,32 +456,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/testSpace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/envVariables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,14 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1125">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/CSDS/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
@@ -1291,16 +496,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/Space/buzzSpace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="4935">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,8 +520,16 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2265">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75" vertical-offset="30" max-vertical-offset="630">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,11 +541,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/envVariables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.478" vertical-offset="91" max-vertical-offset="615">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testSpace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/Space/buzzSpace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4864864" vertical-offset="4185" max-vertical-offset="4935">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
