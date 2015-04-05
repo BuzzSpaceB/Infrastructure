@@ -11,14 +11,18 @@ module.exports.Login= function Login(LoginRequest)
     if(connections == true) {
         if (LoginRequest.username() == Credentials.username) {
             if (LoginRequest.password() == Credentials.password) {
-                return true;
+                return LoginResult("Logged in",Credentials);
             }
+        }
+        else
+        {
+            throw LoginResult("Unable to authenticate",Credentials);
         }
 
     }
     else
     {
-        throw "Couldnot authenticateUser";
+        throw LoginResult("UnableGetDataFromDataSource",Credentials);
     }
 }
 
@@ -32,8 +36,7 @@ module.exports.LoginResult= function LoginResult(msg,obj)
     }
     else
     {
-        console.log(msg);
-        console.log(obj);
+        return obj.username;
     }
 }
 
@@ -66,4 +69,94 @@ module.exports.LoginRquest = function LoginRequest(usernamePasswordCredentials) 
     this.password = function () {
         return pass.password;
     };
+}
+
+module.exports. getUsersWithRole= function  getUsersWithRole( getUsersWithRoleRequest)
+{
+    {
+
+        var entry=new Array();
+        var assert = require("assert");
+        if(getUsersWithRoleRequest.roleid == "01")
+        {
+            return getUsersWithRoleResult(msg,getUsersWithRoleRequest)
+        }
+        else
+        {
+            return getUsersWithRoleResult(msg,null)
+        }
+    }
+}
+
+
+module.exports.getUsersWithRoleResult =function getUsersWithRoleResult(msg,obj)
+{
+
+    if (obj == null) {
+        return new Array();
+    }
+    else
+    {
+        var send=new Array();
+        send.add("u12104592");
+        send.add("u74930593");
+        send.add("u95382753");
+        return send;
+    }
+}
+
+
+
+module.exports.getUsersWithRoleRequest = function getUsersWithRoleRequest(uid,roleid,moduleid) {
+    this.uid=uid;
+    this.roleid=uid;
+    this.moduleid;
+
+}
+
+module.exports.getUsersRolesForModule= function getUsersRolesForModule(getUsersRolesForModuleRequest) {
+    {
+        var assert = require("assert");
+
+        if (getUsersRolesForModuleRequest.mid == "01") {
+            return getUsersWithRoleResult(msg, getUsersWithRoleRequest);
+        }
+        else {
+            return getUsersWithRoleResult(null);
+        }
+
+    }
+}
+
+    module.exports.getUsersRolesForModuleResult = function getUsersRolesForModuleResult(getUsersRolesForModuleRequest) {
+
+        if (getUsersRolesForModuleRequest == null) {
+            return new Array();
+        }
+        else {
+
+            var send = new Array();
+            send.add(new Roles("u12104592", "01"));
+            send.add(new Roles("u12104593", "02"));
+            send.add(new Roles("u12104596", "03"));
+            return send;
+        }
+    }
+
+    module.exports.Roles = function Roles(uid, roleid) {
+        this.uid = uid;
+        this.roleid = uid;
+
+    }
+    module.exports.getUsersRolesForModuleRequest = function getUsersRolesForModuleRequest(mid, uid) {
+        this.mid = mid;
+        this.uid = uid;
+
+        this.mID = function () {
+            return this.mid;
+        };
+
+        this.uID = function () {
+            return this.uid;
+        };
 }
