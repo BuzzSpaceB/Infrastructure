@@ -1,8 +1,8 @@
 /**
  * Created by Trevor on 2015-04-05.
  */
-function addAuthorization(buzzspaceID, statusPoints, Role, ServiceID) {
-    console.log("Buzzspace: " + buzzspaceID + " has added restriction on service: " + ServiceID + " with current restrictions: ");
+function addAuthorization(buzzspaceID, statusPoints, Role, objectName, objectMethod) {
+    console.log("Buzzspace: " + buzzspaceID + " has added restriction on service: " + objectName + "." + objectMethod + " with current restrictions: ");
     console.log("Role: " + Role);
     console.log("Status Points: " + statusPoints);
     return true;
