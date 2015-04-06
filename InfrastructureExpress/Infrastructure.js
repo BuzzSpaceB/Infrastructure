@@ -5,14 +5,16 @@ var notification = require("Notification");
 
 var aop = require("node-aop");
 
-function login(){
-    var uid = space.login("u13019695","1234#",CSDS);
-    console.log("loginResult :"+uid);
-    global["logged_in_uid"] = uid;
+var logged_in_id = "";
+
+function login(username,password){
+     logged_in_id = space.login(username,password,CSDS);
+    console.log("loginResult :"+logged_in_id);
+
 }
 
 function addAdministrator(module_id,user_id){
-    var logged_in_id = global["logged_in_uid"];
+
 
 try {
     var inercept1 = aop.before(space, "addAdministrator", function (_module_id,_user_id) {
@@ -33,7 +35,7 @@ try {
 }
 
 function removeAdministrator(module_id,user_id){
-    var logged_in_id = global["logged_in_uid"];
+
     try {
         var intercept1 = aop.before(space, "removeAdministrator", function (_module_id,_user_id) {
             //TODO: Not 100 as status points - calculate
@@ -53,7 +55,7 @@ function removeAdministrator(module_id,user_id){
 }
 
 function closeBuzzSpace(moduleID){
-    var logged_in_id = global["logged_in_uid"];
+
     try{
         var intercept1 = aop.before(space,"closeBuzzSpace",function(module_ID){
             //TODO: Not 100 as status points - calculate
@@ -73,7 +75,7 @@ function closeBuzzSpace(moduleID){
 
 function createBuzzSpace(moduleID){
     var academicYear = new Date().getFullYear();
-    var logged_in_id = global["logged_in_uid"];
+
     try{
         var intercept1 = aop.before(space,"createBuzzSpace",function(module_ID,user_ID,academic_Year){
             //TODO: Not 100 as status points - calculate
@@ -83,7 +85,7 @@ function createBuzzSpace(moduleID){
         });
 
         space.createBuzzSpace(moduleID,logged_in_id,academicYear);
-        console.log("Buzz Space successfully create");
+        console.log("Buzz Space successfully created");
         return true;
     }catch(NotAuthorizedException){
         console.log(NotAuthorizedException);

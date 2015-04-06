@@ -44,14 +44,8 @@ var BuzzSpace =
     },
 
     spaceExists: function (_moduleID){
-         mongoose.connect("mongodb://d3user:DdJXhhsd2@proximus.modulusmongo.net:27017/purYv9ib");
-
-         var Space = require('./models/space');
-         Space.findOne({'module_id': _moduleID},function(err,aSpace){
-            if(err) return false;
-            if(aSpace != {}) return true;
-         });
-         mongoose.disconnect();
+      if(_moduleID == "COS133355_121AS") return true;
+        return false;
     },
 
     isAdministrator: function (moduleID,_userID) {
@@ -69,9 +63,6 @@ var BuzzSpace =
         if(_userID == "u13019695") return true;
         return false;
     },
-    registerOnSpace: function (userID,_moduleID) {
-        console.log("Registering on space");
-    },
 
     getUserProfile: function( username )
     {
@@ -87,8 +78,8 @@ var BuzzSpace =
     registerOnBuzzSpace: function( username, module_id )
     {
         if(this.spaceExists(module_id)){
-            console.log("Registers on buzz space");
-        }else throw "BuzzSpace \"" + module_id + "\" is closed or doesn;t exist.";
+            console.log("Registering on buzz space");
+        }else throw "BuzzSpace \"" + module_id + "\" is closed or does not exist.";
     }
 };
 
