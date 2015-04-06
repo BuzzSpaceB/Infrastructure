@@ -17,6 +17,11 @@ function logout() {
     logged_in_id = "";
 }
 
+function isLoggedIn(){
+    if(logged_in_id="") return false;
+    return true;
+}
+
 /*
  * START OF CODE THAT EXTENDS AUTHORIZATION MODULE
  *
@@ -44,6 +49,8 @@ var getAuthorizationBeforeIntercept = aop.before(authorization, "getAuthorizatio
 
 
 function addAdministrator(module_id, user_id) {
+    if(!isLoggedIn()) return false;
+
         if (user_id == logged_in_id) {
             console.log("You are already an administrator");
             return false;
@@ -54,6 +61,11 @@ function addAdministrator(module_id, user_id) {
             return false;
         }
 
+        if(space.isAdministrator(logged_in_id)){
+            console.log("You need to be an administrator.");
+            return false;
+        }
+
         space.addAdministrator(module_id, user_id);
         console.log("Successfully added administrator");
         return true;
@@ -61,6 +73,14 @@ function addAdministrator(module_id, user_id) {
 
 
 function removeAdministrator(module_id, user_id) {
+    if(!isLoggedIn()) return false;
+
+
+    if(space.isAdministrator(logged_in_id)){
+        console.log("You need to be an administrator.");
+        return false;
+    }
+
         space.removeAdministrator(module_id, user_id);
         console.log("Successfully removed administrator");
         return true;
@@ -68,6 +88,13 @@ function removeAdministrator(module_id, user_id) {
 
 var closeBuzzSpaceBeforeIntercept;
 function closeBuzzSpace(moduleID) {
+    if(!isLoggedIn()) return false;
+
+    if(space.isAdministrator(logged_in_id)) {
+        console.log("You need to be an administrator.");
+        return false;
+    }
+
     try {
         if (closeBuzzSpaceBeforeIntercept == undefined) {
             closeBuzzSpaceBeforeIntercept = aop.before(space, "closeBuzzSpace", function (module_ID) {
@@ -89,12 +116,18 @@ function closeBuzzSpace(moduleID) {
 
 
 function createBuzzSpace(moduleID) {
+    if(!isLoggedIn()) return false;
+
+    if(space.isAdministrator(logged_in_id)){
+        console.log("You need to be an administrator.");
+        return false;
+    }
+
     var academicYear = new Date().getFullYear();
         space.createBuzzSpace(moduleID, logged_in_id, academicYear);
         console.log("Buzz Space successfully created");
 
         return true;
-
     }
 
 
