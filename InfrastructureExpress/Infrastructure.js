@@ -4,74 +4,61 @@ var CSDS = require("./mock_CSDS");
 var notification = require("Notification");
 
 var aop = require("node-aop");
-
+//TODO: Persist login in Session or somewhere else
 var logged_in_id = "";
-
-
-
 
 function login(username,password){
      logged_in_id = space.login(username,password,CSDS);
     console.log("loginResult :"+logged_in_id);
-
 }
 
-var addAdminBeforeIntercept;
+
 function addAdministrator(module_id,user_id){
-try {
+    if(logged_in_id == "") return false;
+
+    if(!space.isAdministrator(logged_in_id)){
+        console.log("Administrator required to add administrator");
+        return false;
+    }
+
     if(user_id == logged_in_id){
         console.log("You are already an administrator");
         return false;
     }
 
     if(space.isAdministrator(user_id)){
-        console.log("That user is already an administrator");
+        console.log("User is already an administrator");
         return false;
-    }
-
-    if(addAdminBeforeIntercept == undefined) {
-        addAdminBeforeIntercept = aop.before(space, "addAdministrator", function (_module_id, _user_id) {
-            //TODO: Not 100 as status points - calculate
-            if (!authorization.isAuthorized(module_id, "space", "addAdministrator", logged_in_id, 100)) {
-                throw "Not authorized to add Administrator";
-            }
-        });
     }
 
     space.addAdministrator(module_id,user_id);
     console.log("Successfully added administrator");
     return true;
 
-}catch(NotAuthorizedException){
-    console.log(NotAuthorizedException);
-    return false;
-}
+
 }
 
-var removeAdminBeforeIntercept;
 function removeAdministrator(module_id,user_id){
+    if(logged_in_id == "") return false;
 
-    try {
-        if(removeAdminBeforeIntercept == undefined) {
-            removeAdminBeforeIntercept = aop.before(space, "removeAdministrator", function (_module_id, _user_id) {
-                //TODO: Not 100 as status points - calculate
-                if (!authorization.isAuthorized(module_id, "space", "removeAdministrator", logged_in_id, 100)) {
-                    throw "Not authorized to remove Administrator";
-                }
-            });
-        }
-
-        space.removeAdministrator(module_id,user_id);
-        console.log("Successfully removed administrator");
-        return true;
-
-    }catch(NotAuthorizedException){
-        console.log(NotAuthorizedException);
+    if(!space.isAdministrator(logged_in_id)){
+        console.log("Administrator required to remove administrator");
         return false;
     }
+
+    if(!space.isAdministrator(user_id)){
+        console.log("User is not an administrator");
+        return false;
+    }
+
+    space.removeAdministrator(module_id,user_id);
+    console.log("Successfully removed administrator");
+    return true;
+
 }
 
 var closeBuzzSpaceBeforeIntercept;
+if(logged_in_id == "") return false;
 function closeBuzzSpace(moduleID){
     try{
         if(closeBuzzSpaceBeforeIntercept == undefined) {
@@ -92,29 +79,17 @@ function closeBuzzSpace(moduleID){
     }
 }
 
-var createBeforeIntercept;
+
 function createBuzzSpace(moduleID){
     var academicYear = new Date().getFullYear();
+    if(logged_in_id == "") return false;
 
-    try{
+    space.createBuzzSpace(moduleID,logged_in_id,academicYear);
 
-        if(createBeforeIntercept == undefined) {
-            createBeforeIntercept = aop.before(space, "createBuzzSpace", function (module_ID, user_ID, academic_Year) {
-                //TODO: Not 100 as status points - calculate
-                if (!authorization.isAuthorized(module_ID, "space", "createBuzzSpace", logged_in_id, 100)) {
-                    throw "Not authorized to Create Buzz Space"
-                }
-            });
-        }
-        space.createBuzzSpace(moduleID,logged_in_id,academicYear);
+    console.log("Buzz Space successfully created");
 
-        console.log("Buzz Space successfully created");
+    return true;
 
-        return true;
-    }catch(NotAuthorizedException){
-        console.log(NotAuthorizedException);
-        return false;
-    }
 }
 
 function logout(){
