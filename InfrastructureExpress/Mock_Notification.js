@@ -23,14 +23,16 @@ db.once('open', function (callback)
 
 //************ Mock DB ***********************
 
+//NOTE: There will be multiple entries of 'subscriptions' in the db for a user. For this mock, I only used one. Explanation is provided in GlobalRegisterForNotification below.
+
 var subscriptions = {
-    user_id: null,
-    threads: [],
-    users: []
+    user_id: "u12207871",
+    threads: 'root',
+    users: ['All']
 }
 
 var userNotificationSettings = {
-    user_id: null,
+    user_id: "",
     Deletion: null,
     Appraisal: null,
     InstantEmail: null,
@@ -40,49 +42,27 @@ var userNotificationSettings = {
 //*******************************************
 
 
-//Should be called as soon as a new user registers.
-module.exports.registerUserForNotifications = function registerUserForNotifications(userID)
-{
-    var objectSubscription = {
-        user_id: userID,
-        threads: ["All"],   //Default subscribed to all threads
-        users: []         //Default subscribed to no one
-    }
-
-    subscriptions = objectSubscription;
-
-    var objectSettings = {
-        user_id: userID,
-        Deletion: true,
-        Appraisal: true,
-        InstantEmail: false,
-        DailyEmail: true
-    }
-
-    userNotificationSettings = objectSettings;
-
-}
-
 //This function notifies everyone that is subscribed to @Param1 (the thread ID), that there is a new Post.
-module.exports.PostNotification = function StandardNotification(threadID)
+//PostNotification
+module.exports.StandardNotification = function StandardNotification(threadID)
 {
   if (subscriptions != undefined)
   {
       if (subscriptions.user_id == userNotificationSettings.user_id)
       {
-          if (subscriptions.threads.indexOf("All") > -1)
+          if (subscriptions.threads == "root")
           {
               if (userNotificationSettings.InstantEmail)
-                console.log("Instant Email about post sent.");
+                console.log("Instant Email about post sent " + threadID + ".");
               if (userNotificationSettings.DailyEmail)
-                console.log("Daily Email about post queued.");
+                console.log("Daily Email about post queued in thread " + threadID + ".");
           }
-          else if (subscriptions.threads.indexOf(threadID) > -1)
+          else if (subscriptions.threads == threadID)
           {
               if (userNotificationSettings.InstantEmail)
-                  console.log("Instant Email about post sent.");
+                  console.log("Instant Email about post sent " + threadID + ".");
               if (userNotificationSettings.DailyEmail)
-                  console.log("Daily Email about post queued.");
+                  console.log("Daily Email about post queued " + threadID + ".");
           }
           else
           {
@@ -93,45 +73,42 @@ module.exports.PostNotification = function StandardNotification(threadID)
 }
 
 //This function notifies someone that his/her post was deleted.
-module.exports.DeleteNotification = function DeleteNotification(object)
+//DeletionNotification
+module.exports.deleteNotification = function deleteNotification(object)
 {
     /*
   var object = {
-    sendRequest: sendRequest,
-    fromUserID: fromUserID,
-    toUserID: toUserID,
+    sendRequest: boolean, //Ask if i can delete thread, true = send email to ask, false = just delete
+    thread: threadID
     reason: reason
   }
   */
 
     if (subscriptions != undefined)
     {
-        if (subscriptions.user_id == userNotificationSettings.user_id)
-        {
-            if (subscriptions.threads.indexOf("All") > -1)
-            {
-                if (userNotificationSettings.InstantEmail)
-                    console.log("Instant Email about deletion sent.");
-                if (userNotificationSettings.Deletion)
-                    console.log("Instant Email about deletion sent.");
-                if (userNotificationSettings.DailyEmail)
-                    console.log("Daily Email about deletion queued.");
+        if (object.sendRequest)
+            console.log("Sending email to thread owner asking if thread can be deleted. Reason: " + object.reason);
+
+        if (subscriptions.threads.indexOf("All") > -1) {
+
+            if (userNotificationSettings.Deletion) {
+                if (userNotificationSettings.InstantEmail) {
+                    console.log("Instant Email about deletion sent. Reason: " + object.reason);
+                }
+                if (userNotificationSettings.DailyEmail) {
+                    console.log("Daily Email about deletion queued. Reason: " + object.reason);
+                }
             }
-            else if (subscriptions.threads.indexOf(threadID) > -1)
-            {
-                if (userNotificationSettings.InstantEmail)
-                    console.log("Instant Email about deletion sent.");
-                if (userNotificationSettings.DailyEmail)
-                    console.log("Daily Email about deletion queued.");
-                if (userNotificationSettings.Deletion)
-                    console.log("Instant Email about deletion sent.");
-            }
+        }
+        else{
+            //send notification to specific users
         }
     }
 }
 
 //This function notifies someone of an appraisal.
-module.exports.AppraisalNotification = function AppraisalNotification(object)
+//AppraisalNotification
+module.exports.addAppraisalToDB = function addAppraisalToDB(object)
 {
   /*
 
@@ -143,53 +120,34 @@ module.exports.AppraisalNotification = function AppraisalNotification(object)
   }
 
   */
-
-    if (subscriptions != undefined)
-    {
-        if (subscriptions.user_id == userNotificationSettings.user_id)
-        {
-            if (subscriptions.threads.indexOf("All") > -1)
-            {
-                if (userNotificationSettings.InstantEmail)
-                    console.log("Instant Email about appraisal sent.");
-                if (userNotificationSettings.Appraisal)
-                    console.log("Instant Email about appraisal sent.");
-                if (userNotificationSettings.DailyEmail)
-                    console.log("Daily Email about appraisal queued.");
-            }
-            else if (subscriptions.threads.indexOf(threadID) > -1)
-            {
-                if (userNotificationSettings.InstantEmail)
-                    console.log("Instant Email about appraisal sent.");
-                if (userNotificationSettings.DailyEmail)
-                    console.log("Daily Email about appraisal queued.");
-                if (userNotificationSettings.Appraisal)
-                    console.log("Instant Email about appraisal sent.");
-            }
-            else
-            {
-                console.log("User not registered for notifications from " + threadID);
-            }
-        }
+    if (userNotificationSettings.Appraisal) {
+        if (userNotificationSettings.InstantEmail)
+            console.log("Instant Email about appraisal sent.");
+        if (userNotificationSettings.DailyEmail)
+            console.log("Daily Email about appraisal queued.");
     }
 }
 
 //This registers the user for a notification
-module.exports.registerForNotification = function registerForNotification(object)
+//registerForNotification
+module.exports.GlobalRegisterForNotification = function GlobalRegisterForNotification(object)
 {
   /*
   
     object consist of :
       user_id: string,
-      type: string,  //User or thread
-      value: string //Actual value
+      thread_id: string,  //User or thread
+      registeredTo: array //Actual value
+
+      This is a bit tricky...
+      If thread_id is a specific thread, then the user will receive notifications from the people inside registeredTo array. If 'All' is in registeredTo, then will receive if anyone posts inside that thread.
+      If thread_id is 'root', then the user will receive all notifications from the people inside registeredTo array. If 'All' is in registeredTo, then the user will receive notitifications from everyone in every thread.
+
   
   */
     if (subscriptions != null) {
-        if (subscriptions.user_id == object.user_id) {
-            subscriptions[object.type].push(object.value);
-            console.log("Successfully registered user to " + object.value);
-        }
+        //Too much code to test, function team's code works.
+        console.log("User has been registered.");
     }
     else
     {
@@ -198,26 +156,26 @@ module.exports.registerForNotification = function registerForNotification(object
 }
 
 //This deregisters the user for a notification
-module.exports.deregisterForNotification = function deregisterForNotification(object)
+//deregisterForNotification
+module.exports.GlobalEditSubscription = function GlobalEditSubscription(object)
 {
     /*
 
      object consist of :
+     Type: 'Delete', //There's more functions, like to edit a notification registration, but delete is sufficient for now.
      user_id: string,
-     type: string,  //User or thread
-     value: string //Actual value
+     thread_id: string //Thread ID
+
+
+     //This is too difficult to mock, functional team's code work.
+
 
      */
 
     if (subscriptions != null)
     {
-        if (subscriptions.user_id == object.user_id) {
-            var index = subscriptions[object.type].indexOf(object.value);
-            if (index > -1) {
-                subscriptions[object.type].splice(index, 1);
-                console.log("Successfully deregistered from " + object.value);
-            }
-        }
+
+        console.log("User is deregistered");
     }
     else
     {
@@ -226,7 +184,8 @@ module.exports.deregisterForNotification = function deregisterForNotification(ob
 }
 
 //This registers how and what emails the user will get
-module.exports.registerNewUserNotificationSettings = function registerNewUserNotificationSettings(object)
+//registerNewUserNotificationSettings
+module.exports.GlobalRegisterUserNotificationSettings = function GlobalRegisterUserNotificationSettings(object)
 {
   /*
     
@@ -238,12 +197,9 @@ module.exports.registerNewUserNotificationSettings = function registerNewUserNot
         DailyEmail: boolean
   
   */
-
-    valid = true;
-
     if (object != null)
     {
-        if (object.user_id == valid && object.Deletion != undefined && object.Appraisal != undefined && object.InstantEmail != undefined && object.DailyEmail != undefined)
+        if (object.user_id != undefined && object.Deletion != undefined && object.Appraisal != undefined && object.InstantEmail != undefined && object.DailyEmail != undefined)
         {
             userNotificationSettings = object;
             console.log("User successfully registered for email notifications.");
@@ -252,7 +208,8 @@ module.exports.registerNewUserNotificationSettings = function registerNewUserNot
 }
 
 //This changes how and what emails the user will get
-module.exports.editUserNotificationSettings = function editUserNotificationSettings(object)
+//editUserNotificationSettings
+module.exports.GlobalEditNotificationSettings = function GlobalEditNotificationSettings(object)
 {
   /*
     
@@ -277,4 +234,25 @@ module.exports.editUserNotificationSettings = function editUserNotificationSetti
 
 }
 
+//This is to get all the db entries of notifications of posts that hasn't been read yet. For user specified.
+module.exports.WebNotifs = function WebNotifs(object){
+    /*
 
+        object consist of :
+            user_id: string
+
+     */
+
+        console.log("Returning all the notifications for user " + object.user_id);
+}
+
+//Starts service that sends daily emails at specified time.
+//NOTE: This function is continues. Advised to run in seperate thread.
+module.exports.DailyEmail = function DailyEmail(){
+    var specificTime = {
+        hour:12,
+        minute:00
+    }
+
+    console.log("Starting service that will send all daily emails at H: " + specificTime.hour + " M: " + specificTime.minute);
+}
