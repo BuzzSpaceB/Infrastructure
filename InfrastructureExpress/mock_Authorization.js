@@ -52,10 +52,10 @@ function updateAuthorized(buzzspaceName, statusPoints, role, objectName, objectM
     }
     console.log("Updating restriction : " + objectName + "." + objectMethod + "in buzzspace: " + buzzspaceName + " to:");
     if (role != null) {
-        console.log("Role: " + role);
+        console.log("Role: " + newRole);
     }
     if (statusPoints != null)
-        console.log("Status Points: " + statusPoints);
+        console.log("Status Points: " + newStatusPoints);
 }
 
 
