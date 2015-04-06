@@ -244,15 +244,13 @@ module.exports.WebNotifs = function WebNotifs(object){
      */
 
         console.log("Returning all the notifications for user " + object.user_id);
+
+    return "[List of unread notifications]";
 }
 
 //Starts service that sends daily emails at specified time.
 //NOTE: This function is continues. Advised to run in seperate thread.
 module.exports.DailyEmail = function DailyEmail(){
-    var specificTime = {
-        hour:12,
-        minute:00
-    }
 
-    console.log("Starting service that will send all daily emails at H: " + specificTime.hour + " M: " + specificTime.minute);
+    console.log("Starting daily email service...");
 }
