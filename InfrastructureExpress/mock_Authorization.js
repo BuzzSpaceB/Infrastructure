@@ -16,7 +16,7 @@ function removeAuthorization(authorizedID) {
 function isAuthorized(moduleID, objectName, objectMethod, userID, statusPoints) {
     console.log("Checking if userID: " + userID + " has access to " + objectName + "." + objectMethod + " in module: " + moduleID);
 
-    if(userID ==""){
+    if(userID =="" || userID==undefined){
         console.log("Access is not authorized");
         return false;
     }
