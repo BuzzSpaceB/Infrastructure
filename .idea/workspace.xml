@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="431f4352-777a-43c2-8ca7-ea4543404fb3" name="Default" comment="Got the functional modules as objects in the infrastructure module">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/aop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-aop/test/test_in_node.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/app.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InfrastructureExpress/tests/testSpace.js" afterPath="$PROJECT_DIR$/InfrastructureExpress/tests/testSpace.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Infrastructure.iws" />
@@ -33,8 +41,8 @@
       <file leaf-file-name="Mock_CSDS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2655">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2655">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -43,8 +51,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="1140">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,28 +61,48 @@
       <file leaf-file-name="mock_Space.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Space.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1620">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Infrastructure.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Infrastructure.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64285713" vertical-offset="0" max-vertical-offset="1635">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="794" max-vertical-offset="1635">
+              <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mock_Authorization.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testSpace.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InfrastructureExpress/tests/testSpace.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InfrastructureExpress/models/notification.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mock_Authorization.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="565">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -100,10 +128,11 @@
         <option value="$PROJECT_DIR$/Infrastructure.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/Infrastrucure.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js" />
+        <option value="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
+        <option value="$PROJECT_DIR$/InfrastructureExpress/tests/testSpace.js" />
+        <option value="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/app.js" />
         <option value="$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js" />
-        <option value="$PROJECT_DIR$/InfrastructureExpress/mock_Space.js" />
-        <option value="$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js" />
       </list>
     </option>
   </component>
@@ -111,8 +140,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="28" />
+    <option name="x" value="2062" />
+    <option name="y" value="54" />
     <option name="width" value="1707" />
     <option name="height" value="972" />
   </component>
@@ -156,6 +185,10 @@
               <option name="myItemId" value="Infrastructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InfrastructureExpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -168,6 +201,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="InfrastructureExpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infrastructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infrastructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InfrastructureExpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,17 +317,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="28" width="1707" height="972" extended-state="0" />
+    <frame x="2062" y="54" width="1707" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2093713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,7 +360,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Got the functional modules as objects in the infrastructure module" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -421,42 +485,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/app.js">
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/models/notification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="1140">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js">
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/tests/testSpace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2655">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Space.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1620">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/node_modules/node-aop/aop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45535713" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Mock_CSDS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2655">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InfrastructureExpress/Infrastructure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713" vertical-offset="0" max-vertical-offset="1635">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="794" max-vertical-offset="1635">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InfrastructureExpress/mock_Authorization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37168142" vertical-offset="0" max-vertical-offset="565">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>

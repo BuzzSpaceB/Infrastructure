@@ -86,7 +86,7 @@ function createBuzzSpace(moduleID){
         console.log("Buzz Space successfully create");
         return true;
     }catch(NotAuthorizedException){
-        console.log(NotAuthorizedException);
+        console.log(NotAuthorizedException.toString());
         return false;
     }
 }

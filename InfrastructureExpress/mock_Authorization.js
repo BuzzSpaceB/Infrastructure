@@ -12,7 +12,7 @@ function removeAuthorization(authorizedID){
 }
 
 function isAuthorized(moduleID, objectName, objectMethod, userID, statusPoints){
-    console.log("isAuthorized");
+    console.log("Service request Authorized");
     return true;
 }
 

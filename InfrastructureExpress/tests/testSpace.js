@@ -1,7 +1,24 @@
 /**
  * Created by wernermostert on 2015/04/05.
  */
-var space = require("Space");
-var authorization = require("Authorization");
-var csds = require("CSDS");
+//module.exports.closeBuzzSpace = closeBuzzSpace;
+//module.exports.createBuzzSpace = createBuzzSpace;
+//module.exports.registerOnBuzzSpace = space.registerOnBuzzSpace;
+//
+//module.exports.addAdministrator = addAdministrator;
+//module.exports.removeAdministrator = removeAdministrator;
+//module.exports.isAdministrator = space.isAdministrator;
+
+//module.exports.login = login;
+
+
+
+var infra = require("../Infrastructure");
+
+exports.createBuzzSpaceTestNotLoggedIn = function(test){
+
+    test.equal(infra.createBuzzSpace("COS133355_121AS"),false,"Should be false because not logged in yet");
+    test.done();
+};
+
 
