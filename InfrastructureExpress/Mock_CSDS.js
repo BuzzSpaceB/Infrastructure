@@ -16,7 +16,7 @@ var client=ldap.createClient({
     url: "ldap://reaper.up.ac.za"
 });
 /**
- * Object to temporarily store variables to check
+ * Object to temporarily store variables to test login
  * @type {{password: string, username: string}}
  */
 var Credentials = {
@@ -115,6 +115,38 @@ module.exports.LoginRequest = function LoginRequest(usernamePasswordCredentials)
     };
 }
 /**
+ * Gets active modules using a request object
+ * @param getActiveModuleaForYearRequest
+ * @returns {Array}
+ */
+module.exports.getActiveModuleaForYear =function getUsersWithRoleResult(getActiveModuleaForYearRequest)
+{
+    var connection = this.CheckConnection();
+
+    if(connection == true) {
+        var send = new Array();
+        send.add("COS133355_121AS");
+        send.add("COS151947_122AS");
+        return send;
+    }
+    else
+    {
+        return new Array();
+    }
+
+
+
+}
+
+/**
+ * Request Object
+ * @param uid
+ */
+module.exports.getActiveModuleaForYearRequest = function getActiveModuleaForYearRequest(uid) {
+    this.uid=uid;
+}
+
+/**
  * gets all users with roles using a object
  * @param getUsersWithRoleRequest
  * @returns {*}
@@ -122,16 +154,17 @@ module.exports.LoginRequest = function LoginRequest(usernamePasswordCredentials)
 module.exports.getUsersWithRole= function  getUsersWithRole( getUsersWithRoleRequest)
 {
     {
-
-        var entry=new Array();
-        var assert = require("assert");
         if(getUsersWithRoleRequest.roleid == "01")
         {
-            return getUsersWithRoleResult(msg,getUsersWithRoleRequest)
+            var send=new Array();
+            send.add("u12104592");
+            send.add("u74930593");
+            send.add("u95382753");
+            return send;
         }
         else
         {
-            return getUsersWithRoleResult(msg,null)
+            return new Array();
         }
     }
 }
@@ -142,7 +175,7 @@ module.exports.getUsersWithRole= function  getUsersWithRole( getUsersWithRoleReq
  * @param obj
  * @returns {Array}
  */
-module.exports.getUsersWithRoleResult =function getUsersWithRoleResult(msg,obj)
+module.exports.getUsersWithRoleResult =function getUsersWithRoleResult()
 {
 
     if (obj == null) {
@@ -158,7 +191,6 @@ module.exports.getUsersWithRoleResult =function getUsersWithRoleResult(msg,obj)
     }
 }
 
-
 /**
  * Request object for getting roles
  * @param uid
@@ -170,6 +202,18 @@ module.exports.getUsersWithRoleRequest = function getUsersWithRoleRequest(uid,ro
     this.roleid=uid;
     this.moduleid;
 
+    this.uID = function () {
+        return this.mid;
+    };
+
+    this.roleID = function () {
+        return this.uid;
+    };
+
+    this.mID = function () {
+        return this.mid;
+    };
+
 }
 /**
  * Function to get a users role for a module
@@ -178,13 +222,15 @@ module.exports.getUsersWithRoleRequest = function getUsersWithRoleRequest(uid,ro
  */
 module.exports.getUsersRolesForModule= function getUsersRolesForModule(getUsersRolesForModuleRequest) {
     {
-        var assert = require("assert");
-
-        if (getUsersRolesForModuleRequest.mid == "01") {
-            return getUsersWithRoleResult(msg, getUsersWithRoleRequest);
+        if (getUsersRolesForModuleRequest.mid == "COS133355_121AS") {
+            var send = new Array();
+            send.add(new Roles("u13019695", "01"));
+            send.add(new Roles("u12104593", "02"));
+            send.add(new Roles("u12104596", "03"));
+            return send;
         }
         else {
-            return getUsersWithRoleResult(null);
+            return new Array();
         }
 
     }
@@ -202,7 +248,7 @@ module.exports.getUsersRolesForModuleResult = function getUsersRolesForModuleRes
         else {
 
             var send = new Array();
-            send.add(new Roles("u12104592", "01"));
+            send.add(new Roles("u13019695", "01"));
             send.add(new Roles("u12104593", "02"));
             send.add(new Roles("u12104596", "03"));
             return send;
@@ -214,9 +260,17 @@ module.exports.getUsersRolesForModuleResult = function getUsersRolesForModuleRes
  * @param roleid
  * @constructor
  */
-    module.exports.Roles = function Roles(uid, roleid) {
-        this.uid = uid;
-        this.roleid = uid;
+module.exports.Roles = function Roles(uid, roleid) {
+    this.uid = uid;
+    this.roleid = roleid;
+
+    this.uID = function () {
+        return this.mid;
+    }
+};
+
+    this.roleID = function () {
+    return this.uid;
 
     }
 /**
@@ -232,7 +286,66 @@ module.exports.getUsersRolesForModuleResult = function getUsersRolesForModuleRes
             return this.mid;
         };
 
-        this.uID = function () {
+       this.uID = function () {
             return this.uid;
         };
+}
+/**
+ *Helper Function to help get information on the user for the whole space to use
+ * @param UserInfoRequest
+ * * @returns {string}
+ * @constructor
+ */
+module.exports.GetUserInfo= function UserInfo(UserInfoRequest)
+{
+    var connection = this.CheckConnection();
+    if (!connection){
+        throw "Invalid Connection";
+    }
+    if(UserInfoRequest.username() == "u13019695") {
+        switch (UserInfoRequest.infoType) {
+            case "title":
+                return "Mr";
+                break;
+            case "initials":
+                return "M";
+                break;
+            case "id":
+                return "13019695"
+                break;
+            case "surname":
+                return "Mostert"
+                break;
+            case "uid":
+                return "u13019695"
+                break;
+            case "email":
+                return "u13019695@tuks.co.za"
+                break;
+            case "fname":
+                return "Werner"
+                break;
+            default:
+                return "Invalid Type Specified";
+                break;
+        }
+    }
+    else
+    {
+        throw "invalid username"
+    }
+}
+/**
+ * Request object used to specify the type of information and the username
+ * @param username
+ * @param infoType
+ * @constructor
+ */
+function UserInfoRequest(username,infoType) {
+    this.username = function(){
+        return username;
+    };
+    this.infoType = function(){
+        return infoType;
+    };
 }
