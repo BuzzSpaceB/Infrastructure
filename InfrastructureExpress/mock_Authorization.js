@@ -12,7 +12,7 @@ function removeAuthorization(authorizedID){
 }
 
 function isAuthorized(moduleID, objectName, objectMethod, userID, statusPoints){
-    console.log("isAuthorized is called");
+    console.log("isAuthorized");
     return true;
 }
 
@@ -25,3 +25,5 @@ function updateAuthorized(authorizedID, role, statusPoints){
     console.log("updateAuthorized is called");
     return true;
 }
+
+module.exports.isAuthorized = isAuthorized;

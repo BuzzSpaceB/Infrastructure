@@ -1,6 +1,4 @@
 //Stubs
-
-var csds = require('./Mock_CSDS');
 var mongoose = require('mongoose');
  
  mongoose.connection.on('open', function (ref) {
@@ -20,7 +18,7 @@ var BuzzSpace =
     profiles: [],
     rootThread: null,
 
-    login: function( _username, _password)
+    login: function( _username, _password,csds)
     {
         try
         {
@@ -36,7 +34,7 @@ var BuzzSpace =
         }
     },
 
-    createBuzzSpace: function (_moduleID ,_academicYear,_userID ) {
+    createBuzzSpace: function (_moduleID ,_userID, _academicYear) {
         console.log("Creating Buzz Space");
         BuzzSpace.registerOnBuzzSpace(_userID, _moduleID);
     },
@@ -56,17 +54,17 @@ var BuzzSpace =
          mongoose.disconnect();
     },
 
-    isAdministrator: function (_userID) {
+    isAdministrator: function (moduleID,_userID) {
         if(_userID == "u13019695") return true;
         return false;
     },
     
-    addAdministrator: function (_userID) {
+    addAdministrator: function (moduleID,_userID) {
         console.log("Adding administrator " + _userID);
         
     },
     
-    removeAdministrator: function (_userID) {
+    removeAdministrator: function (moduleID,_userID) {
         console.log("Removing administrator "+_userID);
         if(_userID == "u13019695") return true;
         return false;
@@ -78,17 +76,17 @@ var BuzzSpace =
     getUserProfile: function( username )
     {
         console.log("Getting User Profile");
-        return { user_id: "u13019695", password: "1234#" };
+        return { user_id: "u13019695", password: "1234#"};
     },
 
-    closeBuzzSpace: function( user_id, module_id )
+    closeBuzzSpace: function(module_id)
     {
-        console.log("Buzz space closed");
+        console.log("Closing buzz space...");
     },
 
     registerOnBuzzSpace: function( username, module_id )
     {
-        if(spaceExists(module_id)){
+        if(this.spaceExists(module_id)){
             console.log("Registers on buzz space");
         }else throw "BuzzSpace \"" + module_id + "\" is closed or doesn;t exist.";
     }

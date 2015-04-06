@@ -15,6 +15,7 @@ var app = express();
 var infra = require("./Infrastructure");
 
 infra.login();
+infra.addAdministrator();
 
 
 
