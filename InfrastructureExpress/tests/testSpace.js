@@ -18,6 +18,22 @@ exports.createBuzzSpaceLoggedIn = function(test){
     test.done();
 };
 
+exports.createBuzzSpaceAdmin = function(test){
+    infra.login("u13019695","1234#");
+    test.equal(infra.createBuzzSpace("COS133355_121AS"),true,"Should work, after logging in");
+    infra.logout();
+    test.done();
+};
+
+exports.createBuzzSpaceNotAdmin = function(test){
+    infra.login("u13178840","1234#");
+    test.equal(infra.createBuzzSpace("COS133355_121AS"),false,"Should work, after logging in");
+    infra.logout();
+    test.done();
+};
+
+
+
 
 //---------------CLOSE BUZZ SPACE-------------------------------//
 exports.closeBuzzSpaceNotLoggedIn = function(test){
@@ -28,6 +44,20 @@ exports.closeBuzzSpaceNotLoggedIn = function(test){
 exports.closeBuzzSpaceLoggedIn = function(test){
     infra.login("u13019695","1234#");
     test.equal(infra.closeBuzzSpace("COS133355_121AS"),true,"Should work, after logging in");
+    infra.logout();
+    test.done();
+};
+
+exports.closeBuzzSpaceAdmin = function(test){
+    infra.login("u13019695","1234#");
+    test.equal(infra.closeBuzzSpace("COS133355_121AS"),true,"Should work, after logging in");
+    infra.logout();
+    test.done();
+};
+
+exports.closeBuzzSpaceNotAdmin = function(test){
+    infra.login("u13178840","1234#");
+    test.equal(infra.closeBuzzSpace("COS133355_121AS"),false,"Should work, after logging in");
     infra.logout();
     test.done();
 };
@@ -54,9 +84,23 @@ exports.addAdministratorLoggedIn = function(test){
     test.done();
 };
 
+exports.addAdministratorNotAdmin = function(test){
+    infra.login("u13178840", "1234#");
+    test.equal(infra.addAdministrator("COS133355_121AS","u21356546"),false,"Should work,when logged in");
+    infra.logout();
+    test.done();
+};
+
+exports.addAdministratorAsAdmin = function(test){
+    infra.login("u13019695", "1234#");
+    test.equal(infra.addAdministrator("COS133355_121AS","u21356546"),true,"Should work,when logged in");
+    infra.logout();
+    test.done();
+};
+
 exports.addAdministratorSelf = function(test){
     infra.login("u13019695","1234#");
-    infra.equal(infra.addAdministrator("COS133355_121AS","u13019695"),false,"Can't add self as admin");
+    test.equal(infra.addAdministrator("COS133355_121AS","u13019695"),false,"Can't add self as admin");
     infra.logout();
     test.done();
 };
@@ -75,3 +119,19 @@ exports.removeAdministratorLoggedIn = function(test){
     infra.logout();
     test.done();
 };
+
+exports.removeAdministratorAsAdmin = function(test){
+    infra.login("u13019695", "1234#");
+    test.equal(infra.removeAdministrator("COS133355_121AS","u11310856"),true,"Should work,if admin");
+    infra.logout();
+    test.done();
+};
+
+exports.removeAdministratorNotAdmin = function(test){
+    infra.login("u13178840","1234#");
+    test.equal(infra.removeAdministrator("COS133355_121AS","u11310856"),false,"Need to be admin");
+    infra.logout();
+    test.done();
+};
+
+
