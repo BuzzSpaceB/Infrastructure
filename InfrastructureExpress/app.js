@@ -58,8 +58,6 @@ app.use(function(err, req, res, next) {
 });
 
 
-var infra = require();
-
 
 
 module.exports = app;
