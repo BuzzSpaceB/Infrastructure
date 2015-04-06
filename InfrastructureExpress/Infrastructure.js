@@ -1,6 +1,6 @@
 var authorization = require("./mock_Authorization");
 var space = require("./mock_Space");
-var CSDS = require("./mock_CSDS");
+var csds = require("./mock_CSDS");
 var notification = require("./Mock_Notification");
 
 var aop = require("node-aop");
@@ -8,7 +8,7 @@ var aop = require("node-aop");
 var logged_in_id = "";
 
 
-//NEW CODE IDEA
+
 
 //REQUIRED FUNCTIONS
 function login(username, password) {
@@ -82,19 +82,10 @@ var closeBuzzSpaceBeforeIntercept = aop.before(space, "closeBuzzSpace", function
 * END OF CODE THAT EXTENDS NOTIFICATION MODULE
 */
 
-
-//Module exports(SHOULD BE CHANGED TO MODULE OBJECTS && LOGIN
-module.exports.closeBuzzSpace = closeBuzzSpace;
-module.exports.createBuzzSpace = createBuzzSpace;
-module.exports.registerOnBuzzSpace = space.registerOnBuzzSpace;
-
-module.exports.addAdministrator = addAdministrator;
-module.exports.removeAdministrator = removeAdministrator;
-module.exports.isAdministrator = space.isAdministrator;
-module.exports.logout = logout;
-
-module.exports.login = login;
-
+ module.exports.space = space;
+ module.exports.authorization = authorization;
+ module.exports.csds = csds;
+ module.exports.notification = notification;
 
 /*
  OLD CODE:

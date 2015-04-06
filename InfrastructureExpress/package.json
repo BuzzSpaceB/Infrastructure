@@ -1,9 +1,10 @@
 {
-  "name": "InfrastructureExpress",
+  "name": "Infrastructure",
   "version": "0.0.0",
   "private": true,
+  "main" : "Infrastructure.ks",
   "scripts": {
-    "start": "node ./bin/www"
+    "test" : "./tests/testSpace.js"
   },
   "dependencies": {
     "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
