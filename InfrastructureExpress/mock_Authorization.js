@@ -2,7 +2,7 @@
  * Created by Trevor on 2015-04-05.
  */
 function addAuthorization(buzzspaceName, statusPoints, role, objectName, objectMethod) {
-    if (buzzspaceName == "COS301" && role == "student" && objectName == "thread" && objectMethod == "edit") {
+    if (buzzspaceName == "COS133355_121AS" && role == "student" && objectName == "thread" && objectMethod == "edit") {
         if (statusPoints == 100) {
             throw "Restriction already exists"
         } else {
@@ -15,7 +15,7 @@ function addAuthorization(buzzspaceName, statusPoints, role, objectName, objectM
 }
 
 function removeAuthorization(buzzspaceName, objectName, objectMethod) {
-    if (buzzspaceName != "COS301" && objectName != "thread" && objectMethod != "edit") {
+    if (buzzspaceName != "COS133355_121AS" && objectName != "thread" && objectMethod != "edit") {
         throw "No restriction exists for current remove";
     }
     console.log("Removing restriction on " + objectName + "." + objectMethod + "in buzzspace: " + buzzspaceName);
@@ -34,12 +34,12 @@ function getAuthorized(buzzSpaceName) {
     console.log("Getting restrictions in place from module: " + buzzSpaceName);
     var arr = [{
         objectName: "thread",
-        objectType: "edit",
+        objectMethod: "edit",
         role: "student",
         statusPoints: 100
     }, {
         objectName: "thread",
-        objectType: "edit",
+        objectMethod: "edit",
         role: "student",
         statusPoints: 100
     }];
@@ -47,7 +47,7 @@ function getAuthorized(buzzSpaceName) {
 }
 
 function updateAuthorized(buzzspaceName, statusPoints, role, objectName, objectMethod, newRole, newStatusPoints) {
-    if (!(buzzspaceName == "COS301" && role == "student" && objectName == "thread" && objectMethod == "edit")){
+    if (!(buzzspaceName == "COS133355_121AS" && role == "student" && objectName == "thread" && objectMethod == "edit")){
         throw "Current restriction cannot be updated as it cannot be found"
     }
     console.log("Updating restriction : " + objectName + "." + objectMethod + "in buzzspace: " + buzzspaceName + " to:");
