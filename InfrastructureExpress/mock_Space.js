@@ -10,6 +10,12 @@ var mongoose = require('mongoose');
       console.log(err);
   });
 
+
+var spaceExists = function (_moduleID){
+    if(_moduleID == "COS133355_121AS") return true;
+    return false;
+}
+
 var BuzzSpace =
 {
     moduleID: "",
@@ -43,13 +49,10 @@ var BuzzSpace =
         console.log("Storing... Buzz Space to database");
     },
 
-    spaceExists: function (_moduleID){
-      if(_moduleID == "COS133355_121AS") return true;
-        return false;
-    },
+
 
     isAdministrator: function (moduleID,_userID) {
-        if(_userID == "u13019695") return true;
+        if(_userID == "u13019695" || _userID == "u11310856") return true;
         return false;
     },
     
@@ -72,12 +75,14 @@ var BuzzSpace =
 
     closeBuzzSpace: function(module_id)
     {
-        console.log("Closing buzz space...");
+        if(spaceExists(module_id)){
+            console.log("Closing buzz space");
+        }else throw "BuzzSpace \"" + module_id + "\" is closed or does not exist.";
     },
 
     registerOnBuzzSpace: function( username, module_id )
     {
-        if(this.spaceExists(module_id)){
+        if(spaceExists(module_id)){
             console.log("Registering on buzz space");
         }else throw "BuzzSpace \"" + module_id + "\" is closed or does not exist.";
     }

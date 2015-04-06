@@ -19,17 +19,27 @@ function login(username,password){
 var addAdminBeforeIntercept;
 function addAdministrator(module_id,user_id){
 try {
+    if(user_id == logged_in_id){
+        console.log("You are already an administrator");
+        return false;
+    }
+
+    if(space.isAdministrator(user_id)){
+        console.log("That user is already an administrator");
+        return false;
+    }
+
     if(addAdminBeforeIntercept == undefined) {
         addAdminBeforeIntercept = aop.before(space, "addAdministrator", function (_module_id, _user_id) {
             //TODO: Not 100 as status points - calculate
-            if (!authorization.isAuthorized(module_id, space, "addAdministrator", logged_in_id, 100)) {
+            if (!authorization.isAuthorized(module_id, "space", "addAdministrator", logged_in_id, 100)) {
                 throw "Not authorized to add Administrator";
             }
         });
     }
 
     space.addAdministrator(module_id,user_id);
-    console.log("Successfully added administrator")
+    console.log("Successfully added administrator");
     return true;
 
 }catch(NotAuthorizedException){
@@ -45,7 +55,7 @@ function removeAdministrator(module_id,user_id){
         if(removeAdminBeforeIntercept == undefined) {
             removeAdminBeforeIntercept = aop.before(space, "removeAdministrator", function (_module_id, _user_id) {
                 //TODO: Not 100 as status points - calculate
-                if (!authorization.isAuthorized(module_id, space, "removeAdministrator", logged_in_id, 100)) {
+                if (!authorization.isAuthorized(module_id, "space", "removeAdministrator", logged_in_id, 100)) {
                     throw "Not authorized to remove Administrator";
                 }
             });
@@ -67,7 +77,7 @@ function closeBuzzSpace(moduleID){
         if(closeBuzzSpaceBeforeIntercept == undefined) {
             closeBuzzSpaceBeforeIntercept = aop.before(space, "closeBuzzSpace", function (module_ID) {
                 //TODO: Not 100 as status points - calculate
-                if (!authorization.isAuthorized(module_ID, space, "closeBuzzSpace", logged_in_id, 100)) {
+                if (!authorization.isAuthorized(module_ID, "space", "closeBuzzSpace", logged_in_id, 100)) {
                     throw "Not authorized to Close Buzz Space"
                 }
             });
@@ -91,7 +101,7 @@ function createBuzzSpace(moduleID){
         if(createBeforeIntercept == undefined) {
             createBeforeIntercept = aop.before(space, "createBuzzSpace", function (module_ID, user_ID, academic_Year) {
                 //TODO: Not 100 as status points - calculate
-                if (!authorization.isAuthorized(module_ID, space, "createBuzzSpace", logged_in_id, 100)) {
+                if (!authorization.isAuthorized(module_ID, "space", "createBuzzSpace", logged_in_id, 100)) {
                     throw "Not authorized to Create Buzz Space"
                 }
             });
@@ -107,6 +117,9 @@ function createBuzzSpace(moduleID){
     }
 }
 
+function logout(){
+    logged_in_id = "";
+}
 
 
 module.exports.closeBuzzSpace = closeBuzzSpace;
@@ -116,5 +129,6 @@ module.exports.registerOnBuzzSpace = space.registerOnBuzzSpace;
 module.exports.addAdministrator = addAdministrator;
 module.exports.removeAdministrator = removeAdministrator;
 module.exports.isAdministrator = space.isAdministrator;
+module.exports.logout = logout;
 
 module.exports.login = login;
