@@ -5,7 +5,7 @@
 module.exports.PostNotification = function StandardNotification(threadID)
 {
   var object = {
-    thread:threadID;
+    thread:threadID,
   }
 
   //Call a fucntion
@@ -17,9 +17,9 @@ module.exports.DeleteNotification = function DeleteNotification(sendRequest,thre
 {
   
   var object = {
-    sendRequest: sendRequest;
-    thread: thread;
-    reason: reason;
+    sendRequest: sendRequest,
+    thread: thread,
+    reason: reason
   }
   
   //Call a fucntion
@@ -31,10 +31,10 @@ module.exports.AppraisalNotification = function AppraisalNotification(fromUserID
 {
   
   var object = {
-    current_user_id: fromUserID;
-    post_user_id: toUserID;
-    appraisedThread_id: threadID;
-    appraisalType:appraisalType;
+    current_user_id: fromUserID,
+    post_user_id: toUserID,
+    appraisedThread_id: threadID,
+    appraisalType:appraisalType
   }
   
   //Call a function
