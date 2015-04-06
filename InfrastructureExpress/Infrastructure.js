@@ -88,8 +88,6 @@ function removeAdministrator(module_id, user_id) {
         return true;
 }
 
-
-//(moduleID, objectName, objectMethod, userID, statusPoints)
 var closeBuzzSpaceBeforeIntercept;
 function closeBuzzSpace(moduleID) {
     if(!isLoggedIn()) return false;
@@ -175,16 +173,13 @@ function createBuzzSpace(moduleID) {
 * END OF CODE THAT EXTENDS NOTIFICATION MODULE
 */
 
- module.exports.space = space;
-    module.exports.login = login;
-    module.exports.logout = logout;
-    module.exports.closeBuzzSpace = closeBuzzSpace;
-    module.exports.createBuzzSpace = createBuzzSpace;
-    module.exports.addAdministrator = addAdministrator;
-    module.exports.removeAdministrator = removeAdministrator;
 
-
-
+ module.exports.login = login;
+ module.exports.logout = logout;
+ module.exports.closeBuzzSpace = closeBuzzSpace;
+ module.exports.createBuzzSpace = createBuzzSpace;
+ module.exports.addAdministrator = addAdministrator;
+ module.exports.removeAdministrator = removeAdministrator;
 
  module.exports.authorization = authorization;
  module.exports.csds = csds;
