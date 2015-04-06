@@ -156,7 +156,105 @@ var getUsersRolesWithRoleIntercept = aop.before(csds, "getUsersWithRoleRequest",
 /*
  * START OF CODE THAT EXTENDS NOTIFICATION MODULE
  *
+ * Comments for each function in Mock_Notification.js
  */
+
+function postNotification(threadID){
+    notification.StandardNotification(threadID);
+}
+
+function deleteNotificaion(sendARequest,threadID,reason) {
+    var object = {
+        sendRequest: sendARequest,
+        thread: threadID,
+        reason: reason
+    }
+
+    notification.deleteNotification(object);
+}
+
+function appraisalNotification(fromUserID,toUserID,threadID,appraisal){
+    var object = {
+        current_user_id: fromUserID,
+        post_user_id: toUserID,
+        appraisedThread_id: threadID,
+        appraisalType: appraisal
+    }
+
+    notification.addAppraisalToDB(object);
+}
+
+function registerForNotification(userID,threadID,registeredTo){
+    //Read comments in Mock_Notifications.js of how this works. NOTE: registeredTo is an array
+    var object = {
+        user_id: userID,
+        thread_id: threadID,
+        registeredTo: registeredTo
+    }
+
+    notification.GlobalRegisterForNotification(object);
+}
+
+function deregisterForNotification(userID,threadID){
+    var object = {
+        Type: "Delete",
+        user_id: userID,
+        thread_id: threadID
+    }
+
+    notification.GlobalEditSubscription(object);
+}
+
+function registerNewUserNotificationSettings(userID,Deletion,Appraisal,InstantEmail,DailyEmail){
+    /*
+    userID = string
+    Deletion = boolean
+    Appraisal = boolean
+    InstantEmail = boolean
+    DailyEmail = boolean
+     */
+
+    var object = {
+        user_id: userID,
+        Deletion: Deletion,
+        Appraisal: Appraisal,
+        InstantEmail: InstantEmail,
+        DailyEmail: DailyEmail,
+    }
+
+    notification.GlobalRegisterUserNotificationSettings(object);
+}
+
+function editUserNotificationSettings(userID,editWhat,setAs){
+    var object = {
+        editWhat: editWhat,
+        user_id: userID,
+        SetAs: setAs
+    }
+
+    notification.GlobalEditNotificationSettings(object);
+}
+
+function webNotificationsUI(userID){
+    var object = {
+        user_id: userID
+    }
+
+    return notification.WebNotifs(object);
+
+}
+
+function startDailyEmailService(hour,minute){
+    //hour = int
+    //minute = int
+
+    var object = {
+        hour: hour,
+        minute: minute
+    }
+
+    notification.DailyEmail(JSON.stringify(object));
+}
 
 /*
  * END OF CODE THAT EXTENDS NOTIFICATION MODULE
