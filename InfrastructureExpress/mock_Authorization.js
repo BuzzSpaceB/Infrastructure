@@ -29,8 +29,8 @@ function getAuthorized(buzzSpaceID) {
     return null;
 }
 
-function updateAuthorized(authorizedID, role, statusPoints) {
-    console.log("Updating restriction: " + authorizedID + "to:");
+function updateAuthorized(buzzspaceID, statusPoints, role, objectName, objectMethod) {
+    console.log("Updating restriction : " + objectName + "." + objectMethod + "in buzzspace: " + buzzspaceID + " to:");
     if (role != null) {
         console.log("Role: " + role);
     }
@@ -39,6 +39,8 @@ function updateAuthorized(authorizedID, role, statusPoints) {
         console.log("Status Points: " + statusPoints);
     return true;
 }
+
+
 
 exports.isAuthorized = isAuthorized;
 exports.getAuthorized = getAuthorized;
