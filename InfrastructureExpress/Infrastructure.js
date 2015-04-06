@@ -27,8 +27,6 @@ function isLoggedIn(){
  *
  */
 
-
-
 var updateAuthorizationBeforeIntercept = aop.before(authorization, "updateAuthorization", function (buzzspaceID, statusPoints, role, objectName, objectMethod) {
     //TODO Update 100 to user status points
     authorization.isAuthorized(buzzspaceID, "Authorization", "updateAuthorization", logged_in_id, 100);
@@ -49,7 +47,6 @@ var getAuthorizationBeforeIntercept = aop.before(authorization, "getAuthorizatio
  *
  */
 
-
 function addAdministrator(module_id, user_id) {
     if(!isLoggedIn()) return false;
 
@@ -63,7 +60,7 @@ function addAdministrator(module_id, user_id) {
             return false;
         }
 
-        if(space.isAdministrator(logged_in_id)){
+        if(!space.isAdministrator(module_id,logged_in_id)){
             console.log("You need to be an administrator.");
             return false;
         }
@@ -77,8 +74,7 @@ function addAdministrator(module_id, user_id) {
 function removeAdministrator(module_id, user_id) {
     if(!isLoggedIn()) return false;
 
-
-    if(space.isAdministrator(logged_in_id)){
+    if(!space.isAdministrator(module_id,logged_in_id)){
         console.log("You need to be an administrator.");
         return false;
     }
@@ -92,7 +88,7 @@ var closeBuzzSpaceBeforeIntercept;
 function closeBuzzSpace(moduleID) {
     if(!isLoggedIn()) return false;
 
-    if(space.isAdministrator(logged_in_id)) {
+    if(!space.isAdministrator(moduleID,logged_in_id)) {
         console.log("You need to be an administrator.");
         return false;
     }
@@ -120,7 +116,7 @@ function closeBuzzSpace(moduleID) {
 function createBuzzSpace(moduleID) {
     if(!isLoggedIn()) return false;
 
-    if(space.isAdministrator(logged_in_id)){
+    if(!space.isAdministrator(moduleID,logged_in_id)){
         console.log("You need to be an administrator.");
         return false;
     }
@@ -131,27 +127,6 @@ function createBuzzSpace(moduleID) {
         return true;
     }
 
-
-
-
-
-//var addAdminBeforeIntercept = aop.before(space, "addAdministrator", function (_module_id, _user_id) {
-//    //TODO-Werner re-add your code(It's at the end of this document)
-//});
-//
-//var removeAdminBeforeIntercept = aop.before(space, "removeAdministrator", function (_module_id, _user_id) {
-//    //TODO-Werner re-add your code(It's at the end of this document)
-//});
-//
-//var createBuzzSpaceBeforeIntercept = aop.before(space, "createBuzzSpace", function (module_ID, user_ID, academic_Year) {
-////    TODO-Werner re-add your code(It's at the end of this document)
-//});
-//
-//var closeBuzzSpaceBeforeIntercept = aop.before(space, "closeBuzzSpace", function (module_ID) {
-//    //TODO-Werner  re-add your code(It's at the end of this document)
-//    //TODO-Trevor remove all restrictions for buzzfeed
-//    //TODO-Andreas remove all notification for buzzfeed
-//});
 /*
  * END OF CODE THAT EXTENDS SPACES MODULE
  */
@@ -180,6 +155,7 @@ function createBuzzSpace(moduleID) {
  module.exports.createBuzzSpace = createBuzzSpace;
  module.exports.addAdministrator = addAdministrator;
  module.exports.removeAdministrator = removeAdministrator;
+ module.exports.getUserProfile = space.getUserProfile;
 
  module.exports.authorization = authorization;
  module.exports.csds = csds;
