@@ -9,7 +9,7 @@ var logged_in_id = "";
 
 //REQUIRED FUNCTIONS
 function login(username, password) {
-    logged_in_id = space.login(username, password, CSDS);
+    logged_in_id = space.login(username, password, csds);
     console.log("loginResult :" + logged_in_id);
 }
 
@@ -18,7 +18,7 @@ function logout() {
 }
 
 function isLoggedIn(){
-    if(logged_in_id="") return false;
+    if(logged_in_id == "") return false;
     return true;
 }
 
@@ -26,6 +26,8 @@ function isLoggedIn(){
  * START OF CODE THAT EXTENDS AUTHORIZATION MODULE
  *
  */
+
+
 
 var updateAuthorizationBeforeIntercept = aop.before(authorization, "updateAuthorization", function (buzzspaceID, statusPoints, role, objectName, objectMethod) {
     //TODO Update 100 to user status points
@@ -86,6 +88,8 @@ function removeAdministrator(module_id, user_id) {
         return true;
 }
 
+
+//(moduleID, objectName, objectMethod, userID, statusPoints)
 var closeBuzzSpaceBeforeIntercept;
 function closeBuzzSpace(moduleID) {
     if(!isLoggedIn()) return false;
@@ -126,7 +130,6 @@ function createBuzzSpace(moduleID) {
     var academicYear = new Date().getFullYear();
         space.createBuzzSpace(moduleID, logged_in_id, academicYear);
         console.log("Buzz Space successfully created");
-
         return true;
     }
 
