@@ -1,7 +1,7 @@
 {
   "name": "Infrastructure",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "main" : "Infrastructure.js",
   "description": "This package serves as a use to integrate functional's teams code.",
   "scripts": {
