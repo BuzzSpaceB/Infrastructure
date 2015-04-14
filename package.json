@@ -1,36 +1,42 @@
 {
   "name": "Infrastructure",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "main" : "Infrastructure.ks",
+  "main" : "Infrastructure.js",
+  "description": "This package serves as a use to integrate functional's teams code.",
   "scripts": {
     "test" : "./tests/testSpace.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuzzSpaceB/Infrastructure"
+  },
+  "bugs": {
+    "url": "https://github.com/BuzzSpaceB/Infrastructure/issues"
+  },
+  "homepage": "https://github.com/BuzzSpaceB/Notification",
+    "contributors": [
+    {
+      "name": "Trevor Austin",
+      "email": "u11310856@tuks.co.za"
+    },
+    {
+      "name": "Werner Mostert",
+      "email": "werner.mostert1@gmail.com"
+    },
+    {
+      "name": "Michael Nunes",
+      "email": ""
+    },
+    {
+      "name": "Andreas du Preez",
+      "email": "u12207871@tuks.co.za"
+    }
+  ],
   "dependencies": {
     "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
     "CSDS": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
     "Notification": "https://github.com/BuzzSpaceB/Notification/tarball/master",
     "Space": "https://github.com/BuzzSpaceB/Space/tarball/master",
-    "aop": "^0.1.3",
-    "body-parser": "~1.12.0",
-    "broadway": "^0.3.6",
-    "cookie-parser": "~1.3.4",
-    "debug": "~2.1.1",
-    "ejs": "~2.3.1",
-    "electrolyte": "0.0.6",
-    "express": "~4.12.2",
-    "handlebars": "^3.0.0",
-    "hjs": "~0.0.6",
-    "ldapjs": "^0.7.1",
-    "mongoose": "^4.0.0",
-    "morgan": "~1.5.1",
-    "node-aop": "^0.1.0",
-    "node-cache": "^1.1.0",
-    "nodemailer": "^1.3.2",
-    "nodeunit": "^0.9.1",
-    "react": "^0.13.1",
-    "react-bootstrap": "^0.17.0",
-    "scribe-js": "^2.0.4",
-    "serve-favicon": "~2.2.0"
   }
 }
