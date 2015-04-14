@@ -2,6 +2,11 @@
   "name": "Infrastructure",
   "version": "0.0.1",
   "description": "This package serves as a use to integrate functional's teams code.",
+  "homepage": "https://github.com/BuzzSpaceB/Infrastructure",
+  "author":
+  { 
+	"name": "Infrastructure Team"
+  },
   "main": "Infrastructure.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +15,10 @@
     "type": "git",
     "url": "https://github.com/BuzzSpaceB/Infrastructure"
   },
-  "author": "Andreas du Preez",
   "bugs": {
     "url": "https://github.com/BuzzSpaceB/Infrastructure/issues"
   },
-  "homepage": "https://github.com/BuzzSpaceB/Infrastructure",
+  
   "contributors": [
     {
       "name": "Trevor Austin",
@@ -37,6 +41,6 @@
     "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
     "CSDS": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
     "Notification": "https://github.com/BuzzSpaceB/Notification/tarball/master",
-    "Space": "https://github.com/BuzzSpaceB/Space/tarball/master",
+    "Space": "https://github.com/BuzzSpaceB/Space/tarball/master"
   }
 }
