@@ -1,21 +1,21 @@
 {
   "name": "Infrastructure",
   "version": "0.0.1",
-  "private": false,
-  "main" : "Infrastructure.js",
   "description": "This package serves as a use to integrate functional's teams code.",
+  "main": "Infrastructure.js",
   "scripts": {
-    "test" : "./tests/testSpace.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BuzzSpaceB/Infrastructure"
   },
+  "author": "Andreas du Preez",
   "bugs": {
     "url": "https://github.com/BuzzSpaceB/Infrastructure/issues"
   },
   "homepage": "https://github.com/BuzzSpaceB/Infrastructure",
-    "contributors": [
+  "contributors": [
     {
       "name": "Trevor Austin",
       "email": "u11310856@tuks.co.za"
