@@ -1,7 +1,30 @@
 var authorization = require("./mock_Authorization");
 var space = require("./mock_Space");
 var csds = require("./mock_CSDS");
-var notification = require("./Mock_Notification");
+
+//Mock Code
+var notificationAppraisal = require("./Mock_Notification");
+var notificationDailyN = require("./Mock_Notification");
+var notificationDelete = require("./Mock_Notification");
+var notificationEditNSettings = require("./Mock_Notification");
+var notificationEditSub = require("./Mock_Notification");
+var notificationWebNotif = require("./Mock_Notification");
+var notificationRegisterN = require("./Mock_Notification");
+var notificationRegisterUN = require("./Mock_Notification");
+var notificationNotification = require("./Mock_Notification");
+
+/*
+//Actual Notification Functional Team's Code
+var notificationAppraisal = require("./node_modules/Notification/AppraisalNotifyMe.js");
+var notificationDailyN = require("./node_modules/Notification/DailyNotif.js");
+var notificationDelete = require("./node_modules/Notification/DeleteNotif.js");
+var notificationEditNSettings = require("./node_modules/Notification/EditNotificationSettings.js");
+var notificationEditSub = require("./node_modules/Notification/EditSubscription.js");
+var notificationWebNotif = require("./node_modules/Notification/GetWebNotification.js");
+var notificationRegisterN = require("./node_modules/Notification/registerForNotification.js");
+var notificationRegisterUN = require("./node_modules/Notification/registerUserNotificationSettings.js");
+var notificationNotification = require("./node_modules/Notification/StandardNotification.js");
+*/
 
 var aop = require("node-aop");
 
@@ -160,8 +183,9 @@ var getUsersRolesWithRoleIntercept = aop.before(csds, "getUsersWithRoleRequest",
  */
 
 function postNotification(threadID){
-    notification.StandardNotification(threadID);
+    notificationNotification.StandardNotification(threadID);
 }
+
 
 function deleteNotificaion(sendARequest,threadID,reason) {
     var object = {
@@ -170,7 +194,7 @@ function deleteNotificaion(sendARequest,threadID,reason) {
         reason: reason
     }
 
-    notification.deleteNotification(object);
+    notificationDelete.deleteNotification(object);
 }
 
 function appraisalNotification(fromUserID,toUserID,threadID,appraisal){
@@ -181,7 +205,7 @@ function appraisalNotification(fromUserID,toUserID,threadID,appraisal){
         appraisalType: appraisal
     }
 
-    notification.addAppraisalToDB(object);
+    notificationAppraisal.addAppraisalToDB(object);
 }
 
 function registerForNotification(userID,threadID,registeredTo){
@@ -192,7 +216,7 @@ function registerForNotification(userID,threadID,registeredTo){
         registeredTo: registeredTo
     }
 
-    notification.GlobalRegisterForNotification(object);
+    notificationRegisterN.GlobalRegisterForNotification(object);
 }
 
 function deregisterForNotification(userID,threadID){
@@ -202,7 +226,7 @@ function deregisterForNotification(userID,threadID){
         thread_id: threadID
     }
 
-    notification.GlobalEditSubscription(object);
+    notificationEditSub.GlobalEditSubscription(object);
 }
 
 function registerNewUserNotificationSettings(userID,Deletion,Appraisal,InstantEmail,DailyEmail){
@@ -222,7 +246,7 @@ function registerNewUserNotificationSettings(userID,Deletion,Appraisal,InstantEm
         DailyEmail: DailyEmail,
     }
 
-    notification.GlobalRegisterUserNotificationSettings(object);
+    notificationRegisterUN.GlobalRegisterUserNotificationSettings(object);
 }
 
 function editUserNotificationSettings(userID,editWhat,setAs){
@@ -232,7 +256,7 @@ function editUserNotificationSettings(userID,editWhat,setAs){
         SetAs: setAs
     }
 
-    notification.GlobalEditNotificationSettings(object);
+    notificationEditNSettings.GlobalEditNotificationSettings(object);
 }
 
 function webNotificationsUI(userID){
@@ -240,7 +264,7 @@ function webNotificationsUI(userID){
         user_id: userID
     }
 
-    return notification.WebNotifs(object);
+    return notificationWebNotif.WebNotifs(object);
 
 }
 
@@ -253,7 +277,7 @@ function startDailyEmailService(hour,minute){
         minute: minute
     }
 
-    notification.DailyEmail(JSON.stringify(object));
+    notificationDailyN.DailyEmail(JSON.stringify(object));
 }
 
 /*
@@ -271,4 +295,13 @@ module.exports.getUserProfile = space.getUserProfile;
 
 module.exports.authorization = authorization;
 module.exports.csds = csds;
-module.exports.notification = notification;
+
+module.exports.postNotification = postNotification;
+module.exports.deleteNotificaion = deleteNotificaion;
+module.exports.appraisalNotification = appraisalNotification;
+module.exports.registerForNotification = registerForNotification;
+module.exports.deregisterForNotification = deregisterForNotification;
+module.exports.registerNewUserNotificationSettings = registerNewUserNotificationSettings;
+module.exports.editUserNotificationSettings = editUserNotificationSettings;
+module.exports.webNotificationsUI = webNotificationsUI;
+module.exports.startDailyEmailService = startDailyEmailService;
