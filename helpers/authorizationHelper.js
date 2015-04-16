@@ -8,8 +8,8 @@
 //authorized = require("Authorization");
 var database = require("mongoose");
 var ds = require("DatabaseStuff");
-ds.init(database);
 
+var buzzspaceID;
 
 
 /*-------------------------------------------------- Required functions ------------------------------------------------*/
@@ -23,17 +23,37 @@ ds.init(database);
  * @param {String} objectMethod -  This stores the method of the object being called. Eg. edit
  * */
 function addAuthorization(buzzspaceName, statusPoints, role, objectName, objectMethod){
-    var buzzspaceID = null;
-    var serviceID = null;
-    buzzspaceID = buzzspaceSearch(buzzspaceName);
-    serviceID = serviceSearch(objectName, objectMethod);
-    while(buzzspaceID==null&&serviceID==null) {
-    }
-    console.log(buzzspaceID);
-    console.log(serviceID);
+    init(close);
+    //init(close);
+    //var bspaceID = null;
+    //var serviceID = null;
+
+
+
+    //bsModel = ds.models.space;
+    //buzzspaceSearch(buzzspaceName, bsModel);
+
+
+
+
+
+
+
+    //serviceID = serviceSearch(objectName, objectMethod);
+    //console.log(bspaceID);
+    //console.log(serviceID);
     //authorized.addAuthorized(buzzspaceID, serviceID, role, statusPoints);
 };
 
+/*---------------------------------------------------Callback functions-------------------------------------------------*/
+function init(callback){
+    ds.init(database);
+    callback && callback();
+}
+
+function close(){
+    database.disconnect();
+}
 
 
 /*---------------------------------------------------Helper functions---------------------------------------------------*/
@@ -42,9 +62,13 @@ function addAuthorization(buzzspaceName, statusPoints, role, objectName, objectM
  * @param {String} buzzspaceName - This stores the current buzzspaces name.
  * @throws
  * */
+
+
 function buzzspaceSearch(buzzspaceName){
-    bsModel = ds.models.module;
-    bsModel.findOne({"name": role}, function(err, docs){
+    callback && callback.findOne({"module_id": buzzspaceName}, function(err, docs){
+        if(docs==""){
+            console.log("shebang");
+        }
         if(err){
             throw {
                 name: "nonexistentBuzzspaceException",
@@ -54,13 +78,20 @@ function buzzspaceSearch(buzzspaceName){
                 }
             }
         }
-        return docs.name;
+        docs.module_id;
+        console.log("buzzspaceID is set");
     });
-    console.log("Role is set");
-    console.log("buzzspaceID is set");
+    if(buzzspaceID==null){
+        buzzspaceSearch(buzzspaceName);
+    }else{
+        console.log("it worked");
+    }
 }
+
+
 
 function serviceSearch(objectName, objectMethod){
     console.log("serviceID is set");
 }
 /*TEST CODE*/
+addAuthorization("COS301", 100, "test", "Thread", "create");
