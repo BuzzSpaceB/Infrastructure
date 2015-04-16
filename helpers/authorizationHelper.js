@@ -27,22 +27,34 @@ function addAuthorization(buzzspaceName, statusPoints, role, objectName, objectM
     var serviceID = null;
     buzzspaceID = buzzspaceSearch(buzzspaceName);
     serviceID = serviceSearch(objectName, objectMethod);
-    authorized.addAuthorized(buzzspaceID, serviceID, role, statusPoints);
+    while(buzzspaceID==null&&serviceID==null) {
+    }
+    console.log(buzzspaceID);
+    console.log(serviceID);
+    //authorized.addAuthorized(buzzspaceID, serviceID, role, statusPoints);
 };
 
+
+
 /*---------------------------------------------------Helper functions---------------------------------------------------*/
+/**
+ * Finds the buzzspaceID using the buzzspaceName variable
+ * @param {String} buzzspaceName - This stores the current buzzspaces name.
+ * @throws
+ * */
 function buzzspaceSearch(buzzspaceName){
-    roleModel = ds.models.role;//HEH
-    roleModel.find({"name": role}, function(err, docs){
+    bsModel = ds.models.module;
+    bsModel.findOne({"name": role}, function(err, docs){
         if(err){
             throw {
-                name: "nonexistentRoleException",
-                message: "The role selected does not currently exist",
+                name: "nonexistentBuzzspaceException",
+                message: "The Buzzspace selected does not currently exist",
                 toString: function (){
-                    return this.name + ":" + this.m
+                    return this.name + ":" + this.message;
                 }
             }
         }
+        return docs.name;
     });
     console.log("Role is set");
     console.log("buzzspaceID is set");
