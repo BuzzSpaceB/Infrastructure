@@ -41,6 +41,8 @@
     "Authorization": "https://github.com/BuzzSpaceB/Authorization/tarball/master",
     "CSDS": "https://github.com/BuzzSpaceB/CSDS/tarball/master",
     "Notification": "https://github.com/BuzzSpaceB/Notification/tarball/master",
-    "Space": "https://github.com/BuzzSpaceB/Space/tarball/master"
+    "Space": "https://github.com/BuzzSpaceB/Space/tarball/master",
+    "mongoose": "^4.0.1",
+    "DatabaseStuff": "git://github.com/BuzzSpaceB/DatabaseStuff#master"
   }
 }
